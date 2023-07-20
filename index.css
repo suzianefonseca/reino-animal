@@ -19,16 +19,16 @@ body{
   .menu li{
    position:relative;
     float:left;
-           border-right:1px solid #c0c0c0;
-         } 
-         .menu li a{color:#f60d0d; text-decoration:none; padding:5px 10px; display:block;
+  border-right:1px solid #c0c0c0;
+  } 
+  .menu li a{color:#f60d0d; text-decoration:none; padding:5px 10px; display:block;
         
-        }
-        .menu li a:hover{
-         background:#df9696;
-         color:#f81111;
-         -moz-box-shadow:0 3px 10px 0 #f27171; -webkit-box-shadow:0 3px 10px 0 #e91b1b; text-shadow:0px 0px 5px #ffffff;
-          } 
+   }
+  .menu li a:hover{
+  background:#df9696;
+  color:#f81111;
+  -moz-box-shadow:0 3px 10px 0 #f27171; -webkit-box-shadow:0 3px 10px 0 #e91b1b; text-shadow:0px 0px 5px #ffffff;
+  } 
           .menu li ul{
          position:absolute; 
            top:25px; 
