@@ -27,7 +27,9 @@ body{
   .menu li a:hover{
   background:#df9696;
   color:#f81111;
-  -moz-box-shadow:0 3px 10px 0 #f27171; -webkit-box-shadow:0 3px 10px 0 #e91b1b; text-shadow:0px 0px 5px #ffffff;
+  -moz-box-shadow:0 3px 10px 0 #f27171; 
+  -webkit-box-shadow:0 3px 10px 0 #e91b1b;
+   text-shadow:0px 0px 5px #ffffff;
   } 
           .menu li ul{
          position:absolute; 
@@ -36,8 +38,8 @@ body{
            background-color:#f07e7e;
            display:none;
              }
-          .menu li:hover ul, .menu li.over ul{
-            display:block;} 
+          .menu li:hover ul, .menu li.over ul{ display:block;} 
+            
             .menu li ul li{
             border:1px solid #f5f1f1;
              display:block; 
