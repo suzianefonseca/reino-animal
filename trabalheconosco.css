@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
     @media (max-width: 800px) 
@@ -9,10 +10,91 @@ body {
     color: #6004ab;
   }
   
+=======
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(pets/gato5.jpg);
+  background-size: cover;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+li  {
+ text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+
+}
+
+section h2{
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
+/* Estilo para dispositivos móveis */
+@media screen and (max-width: 600px) {
+>>>>>>> 11f85f472e026293eba68795132c819184aa09f1
   header {
     text-align: center;
   }
 
+<<<<<<< HEAD
   a {
     color: #4402ae;
     text-decoration: none;
@@ -40,4 +122,20 @@ body {
     text-decoration: none;
   }
   
+=======
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  a {
+    margin:0 auto;
+}
+}
+  
+>>>>>>> 11f85f472e026293eba68795132c819184aa09f1
   
