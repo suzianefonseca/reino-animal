@@ -2,26 +2,29 @@
     font-family: arial, helvetica, sans-serif; 
     font-size: 30px; 
     font-size: 15px;
+    text-align:start;
+    
     font-style: italic; 
     font-style:initial ;
-     background-image: url(digitando2.jpg); 
+     background-image: url(pets/digitando2.jpg); 
      background-size:cover; 
-     color: rgb(251, 1, 1);
-     margin: 10px;
+     color: rgb(54, 3, 112);
+     margin: 20px;
     
  }
       
  style
    body{
     font-family: arial, helvetica, sans-serif; 
-      font-size: 20px; 
+      font-size: 30px; 
       font-style: italic; 
       font-style: inherit;
 
- background-color: rgb(143, 6, 255);
+ background-color: rgb(255, 6, 6);
  }
   a
-  { text-decoration:rgb(55, 2, 244);
- color: rgb(23, 0, 234);
+  { text-decoration:rgb(247, 14, 14);
+ color: rgb(48, 4, 108);
  }
-  fieldset{ width: 100px; }
+  fieldset{ width: 100px; 
+  }
