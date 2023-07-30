@@ -28,3 +28,16 @@
  }
   fieldset{ width: 100px; 
   }
+/* Responsivo */
+
+@media (max-width: 600px) {
+  nav li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    text-align: center;
+}
+}
