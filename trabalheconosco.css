@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 
-body {
-    @media (max-width: 800px) 
+
+body { 
     font-family: Arial, sans-serif;
     background-image: url(pets/desenho.jpg);
     background-size:cover;
@@ -10,7 +9,6 @@ body {
     color: #6004ab;
   }
   
-=======
 body {
   margin: 0;
   padding: 0;
@@ -89,12 +87,12 @@ input[type="submit"] {
 
 /* Estilo para dispositivos móveis */
 @media screen and (max-width: 600px) {
->>>>>>> 11f85f472e026293eba68795132c819184aa09f1
+
   header {
     text-align: center;
   }
 
-<<<<<<< HEAD
+
   a {
     color: #4402ae;
     text-decoration: none;
@@ -122,7 +120,7 @@ input[type="submit"] {
     text-decoration: none;
   }
   
-=======
+
   nav ul {
     flex-direction: column;
   }
@@ -137,5 +135,5 @@ input[type="submit"] {
 }
 }
   
->>>>>>> 11f85f472e026293eba68795132c819184aa09f1
+
   

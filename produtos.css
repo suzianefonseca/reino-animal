@@ -36,10 +36,12 @@ text-align: center;
 padding: 1rem; 
 }
 
-@media (max-width: 600px) 
+@media (max-width: 600px){
+    
+} 
  
    
-body{ 
+body { 
 font-size: 15px; 
 } 
 .content{ 
