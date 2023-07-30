@@ -6,11 +6,11 @@ form {
     text-align: center;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(243, 22, 66);
+    color: rgb(80, 53, 3);
 }
 
 body {
-    background-image:url(pets/sorrindo.jpg);
+    background-image:url(pets/pata\ e\ osso2.jpg);
      background-size:cover
     
 }
@@ -38,3 +38,4 @@ body {
     margin-top: 30px;
 
 }
+    

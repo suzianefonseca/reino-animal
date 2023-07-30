@@ -4,174 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>juntos</title>
-<<<<<<< HEAD
+
     <link rel="stylesheet" type="text/css" href="trabalheconosco.css" />
 
 </head>
-    <body>
-        <h1> Trabalhe Conosco</h1>
-    <h4>Envie seu curriculo</h4>
-
-  <fieldset><!--inicio do fomulário nome-->
-    <label for="nome">Nome: </label>
-</td>
-<td align="left">
-<input type="text" name="nome">
-</td>
-<td>
-<label for="sobrenome">Sobrenome: </label>
-</td>
-<td align="left"> 
-<input type="text" name="sobrenome">
-</td>
-</tr>
-<tr>
-<td> 
-</fieldset><!--fim do formulario nome-->
-
-<fieldset><!--inicio do fomulário telefone-->
-<label for="nome">Telefone:</label>
-<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"><br>
-</td>
-<tr>
-<td>
-</fieldset><!--fim do fomulário telefone-->
-
-<fieldset><!--inicio do fomulário endereço-->
-            <legend>Dados de Endereço</legend>
-            <table cellspacing="10">
-            <tr>
-            <td>
-            <label for="rua">Rua:</label>
-            </td> <td align="left">
-            <input type="text" name="rua">
-            </td>
-            <td>
-            <label for="numero">Numero:</label> 
-            </td> 
-            <td align="left"> 
-            <input type="text" name="numero" size="4">
-            </td>
-            </tr> 
-            <tr> 
-            <td> 
-            <label for="bairro">Bairro: </label> 
-            </td> 
-            <td align="left">
-            <input type="text" name="bairro"> 
-            </td> 
-            </tr> 
-            <tr> 
-            <td> 
-            <label for="estado">Estado:</label> 
-            </td> 
-            <td align="left"> 
-            <select name="estado"> 
-            <option value="ac">Acre</option> 
-            <option value="al">Alagoas</option> 
-            <option value="am">Amazonas</option> 
-            <option value="ap">Amapá</option> 
-            <option value="ba">Bahia</option> 
-            <option value="ce">Ceará</option> 
-            <option value="df">Distrito Federal</option> 
-            <option value="es">Espírito Santo</option> 
-            <option value="go">Goiás</option> 
-            <option value="ma">Maranhão</option> 
-            <option value="mt">Mato Grosso</option> 
-            <option value="ms">Mato Grosso do Sul</option> 
-            <option value="mg">Minas Gerais</option> 
-            <option value="pa">Pará</option> 
-            <option value="pb">Paraíba</option> 
-            <option value="pr">Paraná</option> 
-            <option value="pe">Pernambuco</option> 
-            <option value="pi">Piauí</option> 
-            <option value="rj">Rio de Janeiro</option> 
-            <option value="rn">Rio Grande do Norte</option> 
-            <option value="ro">Rondônia</option> 
-            <option value="rs">Rio Grande do Sul</option> 
-            <option value="rr">Roraima</option> 
-            <option value="sc">Santa Catarina</option> 
-            <option value="se">Sergipe</option> 
-            <option value="sp">São Paulo</option> 
-            <option value="to">Tocantins</option> 
-            </select>
-            </td> 
-            </tr> 
-            <tr> 
-            <td> 
-            <label for="cidade">Cidade: </label> 
-            </td>
-            <td align="left"> 
-            <input type="text" name="cidade"> 
-            </td> 
-            </tr> 
-            <tr> 
-            <td> 
-            <label for="cep">CEP: </label> 
-            </td> 
-            <td align="left"> 
-            <input type="text" name="cep" size="5" maxlength="5">
-            <input type="text" name="cep2" size="3" maxlength="3"> 
-            </td> 
-            </tr> 
-            </table> 
-            </fieldset><!-- fim  do fomulário-->
-            <a href="index.html">Voltar à Página Principal</a>
-    </body>
-    </html>
-=======
-    <link rel="stylesheet"  href="trabalheconosco.css">
-
-</head>
 <body>
-       
-    <section id="trabalhe-conosco">
+<link rel="stylesheet"  href="trabalheconosco.css">
+<section id="trabalhe-conosco">
+<h2>Trabalhe Conosco</h2>
 
-      <h2>Trabalhe Conosco</h2>
-      <form action="enviar_formulario.php" method="post">
-        <fieldset>
-          <legend>Informações Pessoais</legend>
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required>
+<fieldset>
+<legend>Informações Pessoais</legend>
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" required>
+
   
-          <label for="telefone">Telefone:</label>
-          <input type="tel" id="telefone" name="telefone" required>
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" name="telefone" required>
   
-          <label for="endereco">Endereço:</label>
-          <input type="text" id="endereco" name="endereco" required>
-        </fieldset>
+<label for="endereco">Endereço:</label>
+<input type="text" id="endereco" name="endereco" required>
+</fieldset>
+
+<fieldset>
+<legend>Experiência Profissional</legend>
+<label for="experiencia">Experiência Profissional:</label>
+<textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+</fieldset>
+
+<fieldset>
+<legend>Formação e Cursos</legend>
+<label for="formacao">Formação:</label>
+<input type="text" id="formacao" name="formacao" required>
   
-        <fieldset>
-          <legend>Experiência Profissional</legend>
-          <label for="experiencia">Experiência Profissional:</label>
-          <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
-        </fieldset>
-  
-        <fieldset>
-          <legend>Formação e Cursos</legend>
-          <label for="formacao">Formação:</label>
-          <input type="text" id="formacao" name="formacao" required>
-  
-          <label for="cursos">Cursos Realizados:</label>
-          <input type="text" id="cursos" name="cursos" required>
-        </fieldset>
-  
-        <fieldset>
-          <legend>Redes Sociais</legend>
-          <label for="redes-sociais">Redes Sociais:</label>
-          <input type="text" id="redes-sociais" name="redes-sociais">
-        </fieldset>
-  
-        <input type="submit" value="Enviar">
-      </form>
-     
-    </section>
-    
-  
-        
-            <li><a href="index.html">Voltar à página principal</a></li> 
-          
-    
+<label for="cursos">Cursos Realizados:</label>
+<input type="text" id="cursos" name="cursos" required>
+</fieldset>
+
+<fieldset>
+<legend>Redes Sociais</legend>
+<label for="redes-sociais">Redes Sociais:</label>
+<input type="text" id="redes-sociais" name="redes-sociais">
+</fieldset>
+
+<input type="submit" value="Enviar">
+</form>
+
+</section>
+
+
+
+<li><a href="index.html">Voltar à página principal</a></li> 
+
 </body>
 </html>
->>>>>>> 11f85f472e026293eba68795132c819184aa09f1
+
+<form action="enviar_formulario.php" method="post">
