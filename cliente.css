@@ -8,9 +8,9 @@
     font-style:initial ;
      background-image: url(pets/digitando2.jpg); 
      background-size:cover; 
+     background-repeat: no-repeat;
      color: rgb(54, 3, 112);
      margin: 20px;
-    background-repeat: no-repeat;
  }
       
  style
