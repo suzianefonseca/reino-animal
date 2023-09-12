@@ -1,68 +1,211 @@
-body{
-    background-color: rgb(236, 72, 54);
-    text-align: center;
-    font-family: arial, helvetica, sans-serif; 
-    font-size: 15px; 
-    font-style: italic; 
-    font-style: inherit;
-    color: rgb(59, 1, 71);
-    
+/*Reset*/
+* {
+box-sizing: border-box;
+margin:0;
+font-family: 'Times New Roman', Times, serif;
+
 }
 
-.banner{
-height: 800px;
-background-position: center center;
-background-attachment: fixed; 
-background-repeat: no-repeat; 
-background-size: cover; 
-background-image: url(pets/mais1.jpg); 
-} 
-.content{ 
-padding: 50px;
- } 
- .galeria{ 
-padding: 50px;
- } 
- .galeria img{ 
-height: 250px; 
-font-family: Georgia, 'Times New Roman', Times, serif; 
-font-size: 20px; 
-
-} 
-.footer{
-background-color: rgb(58, 2, 53); 
-color: #e9bce3; 
-text-align: center; 
-padding: 1rem; 
-}
-
-@media (max-width: 800px){
-    
-} 
+  body{
+    background-image: linear-gradient(to right top, #f9d904, #fdbe00, #fea200, #fc8500, #f76600, #f96800, #fa6b00, #fc6d00, #ff9000, #ffb200, #ffd300, #fff404);
+  }
  
-   
-body { 
-font-size: 15px; 
-} 
-.content{ 
-font-size: 15px; 
-padding: 10px; 
-} 
-.galeria{ 
-padding: 10px; 
+/*cabeçalho*/
 
-} 
-.galeria img{ 
-width:100%; 
-align-items:relative;
-height:auto; 
-} 
-.banner{ 
-background-image: url(pets/pet\ shop3.jpg);
+h1,p {
+text-align:center;
+color: rgb(11, 11, 11);
 } 
 
+h1 {
+margin-top:50px;
+margin-bottom:20px;
+color: rgb(12, 1, 38);
+
+}
+h4{
+  margin-bottom: 1.5rem; margin-top: 1.5rem;
+}
+.frase{
+  color: rgb(252, 6, 6);
+}
+ .sobre-produto{
+  flex-grow: 1;
+  
+ }
+ .card-description{
+  display: flex;
+  flex-direction: column;
+ }
+/*galeria*/
+
+.container {
+
+text-align:center;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows:repeat(3, 1fr) ;
+}
+
+.card {
+display:flex;
+flex-direction: column;
+width:230px;
+margin:20px;
+border-radius:5px;
+background-color: rgb(248, 247, 246);
+
+}
+.card:hover{
+padding: 10px;
+}
+.botao__comprar{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.descricao{
+  flex-grow:1;
+  color: rgb(29, 2, 108);
+}
+.card-imagem:hover{
+background-color: aliceblue;
+color: rgb(18, 16, 15);
+border-color: rgb(246, 164, 164);
 
 
-.footer{ 
-background-color: rgb(83, 10, 53); 
-} 
+
+}
+
+.card-imagem {
+height:250px;
+background-size:cover;
+transition:.5s;
+background-position: center;
+
+
+}
+
+.produto-1 .card-imagem{
+background-image:url(pets/suprimento\ de\ cama.jpg);
+}
+.produto-1 .card-imagem:hover{
+
+background-image:url(pets/cama\ \ suprimento\ fexada.jpg);
+
+}
+
+
+
+.produto-2 .card-imagem{
+background-image:url(pets/limpa-pata.1.jpg);
+    
+ }
+ .produto-2 .card-imagem:hover{
+
+  background-image:url(pets/limpa\ patas2.jpg);
+
+  }
+
+.produto-3 .card-imagem{
+background-image:url(pets/pasta-dente.jpg);
+        
+ }
+ .produto-3 .card-imagem:hover{
+
+  background-image:url(pets/pasta-dente2.jpg);
+ }
+
+.produto-4 .card-imagem{
+background-image:url(pets/cadeira-carro.jpg);
+}   
+.produto-4 .card-imagem:hover{
+
+  background-image:url(pets/cadeira-carro2.jpg);
+ }
+.produto-5 .card-imagem{
+
+background-image:url(pets/camajambo.jpg);
+
+}   
+.produto-5 .card-imagem:hover{
+
+  background-image:url(pets/camajambo2.jpg);
+ }
+.produto-6 .card-imagem{
+background-image:url(pets/biscoito-pet1.jpg);
+}   
+.produto-6 .card-imagem:hover{
+
+  background-image:url(pets/biscoito-pet2.jpg);
+ }
+
+.produto-7 .card-imagem{
+background-image:url(pets/bola.jpg);
+}   
+.produto-7 .card-imagem:hover{
+
+  background-image:url(pets/bola2.jpg);
+ }
+
+.produto-8 .card-imagem{
+background-image:url(pets/produto.jpg);
+}
+
+.botao__comprar:hover{
+background-color: rgb(3, 250, 65);
+color: rgb(16, 1, 39);
+border-color: rgb(241, 134, 134);
+
+}
+.botao__comprar{
+  border:2px solid black;
+width:40%;
+padding:0.1rem;
+border-radius:5px;
+}
+
+.card-description{
+padding:20px 10px;
+
+}
+
+/* responsivo*/
+
+@keyframes container {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+/* Estilo do rodapé (footer) */
+
+footer{
+background-color: black;
+color: aliceblue;
+text-align: center;
+padding:10px;
+
+}
+
+a{
+display: block;
+text-align: center;
+
+color:rgb(14, 7, 7);
+text-decoration:none;
+margin-top:0;
+transition:0.9s;
+
+}
+
+
+

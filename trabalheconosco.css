@@ -1,17 +1,20 @@
   
 body {
-  margin: 0;
-  padding: 0;
+  margin:10rem;
+  padding: 10rem;
   font-family: Arial, sans-serif;
   background-image: url(pets/pata.2.jpg);
   background-size: cover;
   color: #042e02;
 }
 
-header {
-  background-color: #fb0a0a;
-  color: #fff;
-  padding: 10px;
+.carrinho{
+  
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  max-width: 4%;
+  height: auto; 
 }
 
 li  {
@@ -44,12 +47,12 @@ section h2{
 }
 
 form {
-  max-width: 600px;
+  max-width: 50px;
   margin: 0 auto;
 }
 
 fieldset {
-  margin-bottom: 20px;
+  margin-bottom:50px;
 }
 
 legend {
@@ -57,12 +60,12 @@ legend {
 }
 
 label {
-  display: block;
+  display:flex;
   margin-bottom: 5px;
 }
 
-input, textarea {
-  width: 98%;
+input {
+  width: 95%;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -79,7 +82,7 @@ input[type="submit"] {
 
 /* Estilo para dispositivos móveis */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
 
   header {
     text-align: center;

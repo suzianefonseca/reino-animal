@@ -1,51 +1,108 @@
- body{
-    font-family: arial, helvetica, sans-serif; 
-    font-size: 30px; 
-    font-size: 15px;
-    text-align:start;
-    
-    font-style: italic; 
-    font-style:initial ;
-     background-image: url(pets/digitando2.jpg); 
-     background-size:cover; 
-     background-repeat: no-repeat;
-     color: rgb(54, 3, 112);
-     margin: 20px;
- }
-      
- style
-   body{
-    font-family: arial, helvetica, sans-serif; 
-      font-size: 30px; 
-      font-style: italic; 
-      font-style: inherit;
+body {
+font-family:'Poppins, sans-serif' ; 
+background-image: url(pets/cat-typing-7.gif);
+background-size:100%;
 
- background-color: rgb(255, 6, 6);
- }
-  a
-  { text-decoration:rgb(247, 14, 14);
- color: rgb(48, 4, 108);
- }
-  fieldset{ width: 100px; 
-  }
+background-repeat: no-repeat;
+
+}
+ .carrinho{
+  
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    max-width: 4%; 
+    height: auto; 
+}
+ 
+h1 {
+  color:#1c0489;
+  font-size:x-large ;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+h2 {
+  color:#02275c;
+  font-size:x-large ;
+  font-size:15px;
+  font-style: normal;
+}
+
+
+form {
+display: flex;
+  
+}
+
+.input-hover:hover {
+  border-color: #f7d8d8;
+  background:#111111;
+  display: inline-flex;
+  color:#f7d8d8;;
+  padding: 5px 15px;
+  text-align: center; 
+}
+
+.input-hover {
+border-color: #777474;
+background:#5c5a5a;
+display: inline-flex;
+color:#fff;
+padding: 5px 10px;
+margin: 10px;
+text-align: center;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+a {
+  
+  display: block;
+  text-align:none;
+  color: #043cca;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.7;
+}
 /* Responsivo */
 
 @media (max-width: 600px) {
-  nav li {
+  fieldset {
     display: block;
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 10%;
+    text-align: center;
   }
 
-  nav ul {
+  h1 {
     text-align: center;
-   
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  .imput-hover{
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
 }
-}
-
-body { 
-  font-size: 15px; 
-  width:100%; 
-  align-items:relative;
-  height:auto; 
-  } 
+ 

@@ -9,9 +9,10 @@
 
 </head>
 <body>
-<link rel="stylesheet"  href="trabalheconosco.css">
-<section id="trabalhe-conosco">
-<h2>Trabalhe Conosco</h2>
+
+    <h2>Trabalhe Conosco</h2>
+
+
 
 <fieldset>
 <legend>Informações Pessoais</legend>
@@ -20,7 +21,7 @@
 
   
 <label for="telefone">Telefone:</label>
-<input type="tel" id="telefone" name="telefone" required>
+<input type="text" id="telefone" name="telefone" required>
   
 <label for="endereco">Endereço:</label>
 <input type="text" id="endereco" name="endereco" required>
@@ -29,7 +30,8 @@
 <fieldset>
 <legend>Experiência Profissional</legend>
 <label for="experiencia">Experiência Profissional:</label>
-<textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+<input type="text" id="experiencia" name="experiencia" required>
+
 </fieldset>
 
 <fieldset>
@@ -44,11 +46,12 @@
 <fieldset>
 <legend>Redes Sociais</legend>
 <label for="redes-sociais">Redes Sociais:</label>
-<input type="text" id="redes-sociais" name="redes-sociais">
+<input type="text" id="redes-sociais" name="redes-sociais"required >
 </fieldset>
-
+<h3>Envie seu Curriculo</h3>
+<input type="file"/>
 <input type="submit" value="Enviar">
-</form>
+
 
 </section>
 
@@ -59,4 +62,3 @@
 </body>
 </html>
 
-<form action="enviar_formulario.php" method="post">

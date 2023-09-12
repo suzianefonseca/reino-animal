@@ -1,93 +1,115 @@
 *{margin: 0; padding: 0;
 }
 body{ 
-    
-    
     font-family: arial, helvetica, sans-serif; 
-    font-size: 15px; 
+    font-size: 20px; 
     font-style: italic; 
     font-style: inherit;
-    background-image: url(pets/fofura.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-}
+    background-image: linear-gradient(to right top, #f9d904, #fdbe00, #fea200, #fc8500, #f76600, #f96800, #fa6b00, #fc6d00, #ff9000, #ffb200, #ffd300, #fff404);
 
+    
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.main{
+    display:flex;
+    width: 100%;
+}
+.imagem{
+background: url(pets/Firefly\ gato\ e\ cachorro\ juntos\ 10.png)no-repeat;
+background-size:500px;
+background-position:center;
+width: 40%;
+height:90vh;
+opacity: 50%;;
+}
+.descricao-loja{
+    width: 50%;
+    height: 100vh;
+}
+.icone{
+    width:90px;
+    height: 90px;
+}
 .menu{
     list-style:none; 
-    border:1px solid #c0c0c0; 
+    border:0px solid #eff61f; 
     float:left; 
     font-weight: bold;
+    margin-top: 5px;
     }
 
     .menu li{
     position:relative;
     float:left;
-    border-right:1px solid #c0c0c0;
+    border-right:0px solid #cbf21a;
     } 
 
     .menu li a{
-        color:#f60d0d; 
+        color:#0e0130; 
         text-decoration:none; 
         padding:5px 10px; 
         display:block;  
     }
 
     .menu li a:hover{
-    background:#df9696;
-    color:#f81111;
-    -moz-box-shadow:0 3px 10px 0 #f27171; 
-    -webkit-box-shadow:0 3px 10px 0 #e91b1b;
+    background:#ea1805;
+    color:#170129;
+    -moz-box-shadow:0 3px 10px 0 #0a0431; 
+    -webkit-box-shadow:0 3px 10px 0 #0e0230;
     text-shadow:0px 0px 5px #ffffff;
     } 
     .menu li ul{
         position:absolute; 
         top:25px; 
         left:0;
-        background-color:#f07e7e;
+        background-color:#e93b06;
         display:none;
         }
-            
-    .menu li:hover ul, .menu li.hover ul{ display:block;} 
+        .menu li:hover ul, .menu li.hover ul{ display:block;} 
               
-    .menu li ul li{
-        border:1px solid #f5f1f1;
-        display:block; 
-        width:150px;
-
-    }
-
-    h1{ 
-        color:rgb(248, 9, 9);
-        font-size:x-large ; 
-        text-align:center; 
-        font-size:50px;
-        font-style:italic; 
-        font-family:Georgia,'Times New Roman', Times, serif; 
-    }
-   
-    body { 
-        font-size: 15px; 
-        width:100%; 
-        align-items:relative;
-        height:auto; 
-        } 
-        nav li {
-            display: block;
-            margin-right: 0;
-            margin-bottom: 10px;
-          }
-        
-          nav ul {
-            text-align: center;
-          }
-          @media (max-width: 600px){
+        .menu li ul li{
+            border:1px solid #f5f1f1;
+            display:block; 
+            width:150px;
     
-          } 
+        }
+        
+         
+        .pata{
+            margin:900px;
+            height:250px;
+            padding-top:150px;
+           margin-top: 300px;
+    
            
-             
-          body { 
-          font-size: 15px; 
-          width:100%; 
-          align-items:relative;
-          height:auto; 
-          } 
+        }
+       
+        h1{ 
+            color:rgb(248, 9, 9);
+            font-size:x-large ; 
+            text-align:center; 
+            font-size:50px;
+            font-style:italic; 
+            font-family:Georgia,'Times New Roman', Times, serif; 
+        }
+       
+        body { 
+            font-size: 15px; 
+            width:100%; 
+            align-items:relative;
+            height:auto; 
+            } 
+            nav li {
+                display: block;
+                margin-right: 0;
+                margin-bottom: 10px;
+              }
+            
+              nav ul {
+                text-align: center;
+              } 
+    
