@@ -7,14 +7,14 @@ font-family: 'Times New Roman', Times, serif;
 }
 
   body{
-    background-image: linear-gradient(to right top, #f9d904, #fdbe00, #fea200, #fc8500, #f76600, #f96800, #fa6b00, #fc6d00, #ff9000, #ffb200, #ffd300, #fff404);
+    background-image: radial-gradient(circle, #de250a, #e35900, #e57e00, #e49f00, #e0be15, #e1bf15, #e1bf15, #e2c015, #e8a200, #eb8200, #ec5d00, #e92b0f);
   }
  
 /*cabeçalho*/
 
 h1,p {
 text-align:center;
-color: rgb(11, 11, 11);
+
 } 
 
 h1 {
@@ -50,10 +50,10 @@ grid-template-rows:repeat(3, 1fr) ;
 .card {
 display:flex;
 flex-direction: column;
-width:230px;
-margin:20px;
-border-radius:5px;
-background-color: rgb(248, 247, 246);
+width:250px;
+margin:30px;
+border-radius:3px;
+background-color: rgb(241, 106, 21);
 
 }
 .card:hover{
@@ -66,19 +66,19 @@ padding: 10px;
 }
 .descricao{
   flex-grow:1;
-  color: rgb(29, 2, 108);
+  color: rgb(1, 13, 1);
 }
 .card-imagem:hover{
-background-color: aliceblue;
-color: rgb(18, 16, 15);
-border-color: rgb(246, 164, 164);
+background-color: rgb(245, 245, 252);
+color: rgb(247, 244, 243);
+border-color: rgb(250, 247, 247);
 
 
 
 }
 
 .card-imagem {
-height:250px;
+height:300px;
 background-size:cover;
 transition:.5s;
 background-position: center;
@@ -149,17 +149,52 @@ background-image:url(pets/bola.jpg);
  }
 
 .produto-8 .card-imagem{
-background-image:url(pets/produto.jpg);
+background-image:url(pets/petiscocat.jpg);
 }
+.produto-8 .card-imagem:hover{
 
+  background-image:url(pets/petiscocat2.jpg);
+ }
+ .produto-9 .card-imagem{
+  background-image:url(pets/comedouro.jpg);
+  }
+  .produto-9 .card-imagem:hover{
+  
+    background-image:url(pets/comedouro2.jpg);
+   }
+
+   .produto-10 .card-imagem{
+    background-image:url(pets/kitbanhox.jpg);
+    }
+    .produto-10 .card-imagem:hover{
+    
+      background-image:url(pets/kitbanoy.jpg);
+     }
+  
+     .produto-11 .card-imagem{
+      background-image:url(pets/petiscocat.jpg);
+      }
+      .produto-11 .card-imagem:hover{
+      
+        background-image:url(pets/petiscocat2.jpg);
+
+      }
+
+      .produto-11 .card-imagem{
+        background-image:url(pets/tapete\ xixi.jpg);
+        }
+        .produto-11 .card-imagem:hover{
+        
+          background-image:url(pets/xixipet2.jpg);
+        }  
 .botao__comprar:hover{
-background-color: rgb(3, 250, 65);
-color: rgb(16, 1, 39);
-border-color: rgb(241, 134, 134);
+background-color: rgb(3, 250, 11);
+color: rgb(4, 0, 10);
+border-color: rgb(221, 250, 6);
 
 }
 .botao__comprar{
-  border:2px solid black;
+  border:2px solid rgb(218, 242, 3);
 width:40%;
 padding:0.1rem;
 border-radius:5px;
@@ -207,5 +242,10 @@ transition:0.9s;
 
 }
 
-
+@media screen and (max-width:480px) {
+  .container{
+    grid-template-columns:1;
+    grid-template-rows: repeat(12,1fr);
+  }
+}
 

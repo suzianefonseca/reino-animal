@@ -2,12 +2,9 @@
 }
 body{ 
     font-family: arial, helvetica, sans-serif; 
-    font-size: 20px; 
-    font-style: italic; 
-    font-style: inherit;
-    background-image: linear-gradient(to right top, #f9d904, #fdbe00, #fea200, #fc8500, #f76600, #f96800, #fa6b00, #fc6d00, #ff9000, #ffb200, #ffd300, #fff404);
-
     
+   
+    background-image:  radial-gradient(circle, #ecf605, #f9d600, #ffb500, #ff9300, #ff7000, #ff7000, #ff7000, #ff7000, #ff9300, #ffb500, #f9d600, #ecf605)
 }
 .header{
     display: flex;
@@ -24,7 +21,7 @@ background-size:500px;
 background-position:center;
 width: 40%;
 height:90vh;
-opacity: 50%;;
+
 }
 .descricao-loja{
     width: 50%;

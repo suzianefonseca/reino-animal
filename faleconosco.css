@@ -11,9 +11,8 @@ form {
 }
 
 body {
-    background-image:url(pets/pata\ e\ osso2.jpg);
-     background-size:cover
     
+    background-image: radial-gradient(circle, #de250a, #e35900, #e57e00, #e49f00, #e0be15, #e1bf15, #e1bf15, #e2c015, #e8a200, #eb8200, #ec5d00, #e92b0f);  
     
 }
 
