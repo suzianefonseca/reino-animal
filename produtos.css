@@ -50,8 +50,8 @@ grid-template-rows:repeat(3, 1fr) ;
 .card {
 display:flex;
 flex-direction: column;
-width:250px;
-margin:30px;
+width:280px;
+margin:20px;
 border-radius:3px;
 background-color: rgb(241, 106, 21);
 
@@ -59,11 +59,13 @@ background-color: rgb(241, 106, 21);
 .card:hover{
 padding: 10px;
 }
+
 .botao__comprar{
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
 }
+
 .descricao{
   flex-grow:1;
   color: rgb(1, 13, 1);
@@ -72,9 +74,6 @@ padding: 10px;
 background-color: rgb(245, 245, 252);
 color: rgb(247, 244, 243);
 border-color: rgb(250, 247, 247);
-
-
-
 }
 
 .card-imagem {
@@ -187,6 +186,78 @@ background-image:url(pets/petiscocat.jpg);
         
           background-image:url(pets/xixipet2.jpg);
         }  
+
+        .produto-12 .card-imagem{
+          background-image:url(pets/areiacat.jpg);
+          }
+          .produto-12 .card-imagem:hover{
+          
+            background-image:url(pets/areiacat2.jpg);
+          }  
+
+          .produto-13 .card-imagem{
+            background-image:url(pets/suport\ p\ petisco.jpg);
+            }
+            .produto-13 .card-imagem:hover{
+            
+              background-image:url(pets/suportpetisco\ gato.jpg);
+            }  
+
+            .produto-14 .card-imagem{
+              background-image:url(pets/gatifilhote.jpg);
+              }
+              .produto-14 .card-imagem:hover{
+              
+                background-image:url(pets/gatopequeno2.jpg);
+              }  
+
+              .produto-15 .card-imagem{
+                background-image:url(pets/racaogatos.jpg);
+                }
+                .produto-15 .card-imagem:hover{
+                
+                  background-image:url(pets/racaogatos2.jpg);
+                }       
+
+                .produto-16 .card-imagem{
+                  background-image:url(pets/racaogrande.jpg);
+                  }
+                  .produto-16 .card-imagem:hover{
+                  
+                    background-image:url(pets/racaogrande2.jpg);
+                  }
+                  
+                  .produto-17 .card-imagem{
+                    background-image:url(pets/racaopetpqn.jpg);
+                    }
+                    .produto-17 .card-imagem:hover{
+                    
+                      background-image:url(pets/racaopetpqn2.jpg);
+                    } 
+                    
+                    .produto-18 .card-imagem{
+                      background-image:url(pets/mochilapet.jpg);
+                      }
+                      .produto-18 .card-imagem:hover{
+                      
+                        background-image:url(pets/mochilapet2.jpg);
+                      } 
+                        
+                      .produto-19 .card-imagem{
+                        background-image:url(pets/brinquedocat.jpg);
+                        }
+                        .produto-19 .card-imagem:hover{
+                        
+                          background-image:url(pets/brinquedocat2.jpg);
+                        } 
+                        
+                        .produto-20 .card-imagem{
+                          background-image:url(pets/brinquedocachorro.jpg);
+                          }
+                          .produto-20 .card-imagem:hover{
+                          
+                            background-image:url(pets/brinquedocachorro2.jpg);
+                          }              
 .botao__comprar:hover{
 background-color: rgb(3, 250, 11);
 color: rgb(4, 0, 10);

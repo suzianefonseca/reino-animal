@@ -1,4 +1,6 @@
-*{margin: 0; padding: 0;
+*{
+margin: 0; 
+
 }
 body{ 
     font-family: arial, helvetica, sans-serif; 
@@ -26,6 +28,11 @@ height:90vh;
 .descricao-loja{
     width: 50%;
     height: 100vh;
+}
+p{
+    font-style:italic; 
+    font-family:Georgia,'Times New Roman', Times, serif;
+    padding: 20px;
 }
 .icone{
     width:90px;
@@ -86,19 +93,19 @@ height:90vh;
         }
        
         h1{ 
-            color:rgb(248, 9, 9);
+            
             font-size:x-large ; 
             text-align:center; 
             font-size:50px;
             font-style:italic; 
-            font-family:Georgia,'Times New Roman', Times, serif; 
+            font-family:fredericka the great,fantasy; 
         }
        
         body { 
-            font-size: 15px; 
+            
             width:100%; 
-            align-items:relative;
             height:auto; 
+
             } 
             nav li {
                 display: block;
