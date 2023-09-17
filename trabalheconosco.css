@@ -125,6 +125,16 @@ input[type="submit"] {
     margin:0 auto;
 }
 }
-  
+footer{
+
+  background-color: black;
+  text-align: center;
+
+  }
+
+  .frase{
+
+    color: rgb(252, 6, 6);
+  }
 
   

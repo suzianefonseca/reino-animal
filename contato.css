@@ -15,7 +15,7 @@ fieldset{
     display: flex;
     flex-direction: column;
     align-items:center;
-    
+    border: none;
 }
 body {
     
@@ -46,6 +46,18 @@ body {
     margin-top: 30px;
 
 }
+
+footer{
+
+    background-color: black;
+    text-align: center;
+   
+    }
+
+    .frase{
+
+        color: rgb(252, 6, 6);
+      }
     
 
 

@@ -1,7 +1,7 @@
 /*Reset*/
 * {
 box-sizing: border-box;
-margin:0;
+
 font-family: 'Times New Roman', Times, serif;
 
 }
@@ -26,7 +26,9 @@ color: rgb(12, 1, 38);
 h4{
   margin-bottom: 1.5rem; margin-top: 1.5rem;
 }
+
 .frase{
+
   color: rgb(252, 6, 6);
 }
  .sobre-produto{
@@ -39,9 +41,17 @@ h4{
  }
 /*galeria*/
 
+.icone{
+  
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  max-width: 4%; 
+  height: auto; 
+}
 .container {
 
-text-align:center;
+
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows:repeat(3, 1fr) ;
@@ -67,7 +77,7 @@ padding: 10px;
 }
 
 .descricao{
-  flex-grow:1;
+  display: inline-flex;
   color: rgb(1, 13, 1);
 }
 .card-imagem:hover{
@@ -79,7 +89,7 @@ border-color: rgb(250, 247, 247);
 .card-imagem {
 height:300px;
 background-size:cover;
-transition:.5s;
+transition:.2s;
 background-position: center;
 
 
@@ -93,8 +103,6 @@ background-image:url(pets/suprimento\ de\ cama.jpg);
 background-image:url(pets/cama\ \ suprimento\ fexada.jpg);
 
 }
-
-
 
 .produto-2 .card-imagem{
 background-image:url(pets/limpa-pata.1.jpg);
@@ -162,102 +170,130 @@ background-image:url(pets/petiscocat.jpg);
     background-image:url(pets/comedouro2.jpg);
    }
 
-   .produto-10 .card-imagem{
+  .produto-10 .card-imagem{
     background-image:url(pets/kitbanhox.jpg);
     }
-    .produto-10 .card-imagem:hover{
+  .produto-10 .card-imagem:hover{
     
-      background-image:url(pets/kitbanoy.jpg);
+    background-image:url(pets/kitbanoy.jpg);
      }
   
-     .produto-11 .card-imagem{
-      background-image:url(pets/petiscocat.jpg);
+  .produto-11 .card-imagem{
+
+   background-image:url(pets/petiscocat.jpg);
+
       }
-      .produto-11 .card-imagem:hover{
+
+  .produto-11 .card-imagem:hover{
       
-        background-image:url(pets/petiscocat2.jpg);
+  background-image:url(pets/petiscocat2.jpg);
+
+    }
+
+  .produto-12 .card-imagem{
+    background-image:url(pets/tapete\ xixi.jpg);
 
       }
 
-      .produto-11 .card-imagem{
-        background-image:url(pets/tapete\ xixi.jpg);
-        }
-        .produto-11 .card-imagem:hover{
+  .produto-12 .card-imagem:hover{
         
-          background-image:url(pets/xixipet2.jpg);
-        }  
+    background-image:url(pets/xixipet2.jpg);
 
-        .produto-12 .card-imagem{
-          background-image:url(pets/areiacat.jpg);
+      }  
+
+  .produto-13 .card-imagem{
+    background-image:url(pets/areiacat.jpg);
           }
-          .produto-12 .card-imagem:hover{
+  .produto-13 .card-imagem:hover{
           
-            background-image:url(pets/areiacat2.jpg);
-          }  
+    background-image:url(pets/areiacat2.jpg);
+     }  
 
-          .produto-13 .card-imagem{
-            background-image:url(pets/suport\ p\ petisco.jpg);
-            }
-            .produto-13 .card-imagem:hover{
+  .produto-14 .card-imagem{
+    background-image:url(pets/suport\ p\ petisco.jpg);
+     }
+  .produto-14 .card-imagem:hover{
             
-              background-image:url(pets/suportpetisco\ gato.jpg);
-            }  
+    background-image:url(pets/suportpetisco\ gato.jpg);
+     }  
 
-            .produto-14 .card-imagem{
-              background-image:url(pets/gatifilhote.jpg);
-              }
-              .produto-14 .card-imagem:hover{
+  .produto-15 .card-imagem{
+    background-image:url(pets/gatifilhote.jpg);
+     }
+  .produto-15 .card-imagem:hover{
               
-                background-image:url(pets/gatopequeno2.jpg);
-              }  
+    background-image:url(pets/gatopequeno2.jpg);
+    }  
 
-              .produto-15 .card-imagem{
-                background-image:url(pets/racaogatos.jpg);
-                }
-                .produto-15 .card-imagem:hover{
+  .produto-16 .card-imagem{
+    background-image:url(pets/racaogatos.jpg);
+
+     }
+
+  .produto-16 .card-imagem:hover{
                 
-                  background-image:url(pets/racaogatos2.jpg);
-                }       
+    background-image:url(pets/racaogatos2.jpg);
 
-                .produto-16 .card-imagem{
-                  background-image:url(pets/racaogrande.jpg);
-                  }
-                  .produto-16 .card-imagem:hover{
+      }       
+
+  .produto-17 .card-imagem{
+    background-image:url(pets/racaogrande.jpg);
+
+      }
+  .produto-17 .card-imagem:hover{
                   
-                    background-image:url(pets/racaogrande2.jpg);
-                  }
+    background-image:url(pets/racaogrande2.jpg);
+
+      }
                   
-                  .produto-17 .card-imagem{
-                    background-image:url(pets/racaopetpqn.jpg);
-                    }
-                    .produto-17 .card-imagem:hover{
+  .produto-18 .card-imagem{
+
+    background-image:url(pets/racaopetpqn.jpg);
+
+      }
+
+  .produto-18 .card-imagem:hover{
                     
-                      background-image:url(pets/racaopetpqn2.jpg);
-                    } 
+     background-image:url(pets/racaopetpqn2.jpg);
+
+      } 
                     
-                    .produto-18 .card-imagem{
-                      background-image:url(pets/mochilapet.jpg);
-                      }
-                      .produto-18 .card-imagem:hover{
+  .produto-19 .card-imagem{
+
+    background-image:url(pets/mochilapet.jpg);
+
+      }
+
+  .produto-19 .card-imagem:hover{
                       
-                        background-image:url(pets/mochilapet2.jpg);
-                      } 
+    background-image:url(pets/mochilapet2.jpg);
+
+      } 
                         
-                      .produto-19 .card-imagem{
-                        background-image:url(pets/brinquedocat.jpg);
-                        }
-                        .produto-19 .card-imagem:hover{
+  .produto-20 .card-imagem{
+
+    background-image:url(pets/brinquedocat.jpg);
+
+      }
+
+  .produto-20 .card-imagem:hover{
                         
-                          background-image:url(pets/brinquedocat2.jpg);
-                        } 
+    background-image:url(pets/brinquedocat2.jpg);
+
+      } 
                         
-                        .produto-20 .card-imagem{
-                          background-image:url(pets/brinquedocachorro.jpg);
-                          }
-                          .produto-20 .card-imagem:hover{
+  .produto-21 .card-imagem{
+
+    background-image:url(pets/brinquedocachorro.jpg);
+
+      }
+
+  .produto-21 .card-imagem:hover{
                           
-                            background-image:url(pets/brinquedocachorro2.jpg);
-                          }              
+    background-image:url(pets/brinquedocachorro2.jpg);
+
+      } 
+                   
 .botao__comprar:hover{
 background-color: rgb(3, 250, 11);
 color: rgb(4, 0, 10);
@@ -308,15 +344,21 @@ text-align: center;
 
 color:rgb(14, 7, 7);
 text-decoration:none;
-margin-top:0;
-transition:0.9s;
+
+transition:0.2s;
 
 }
-
+.voltar{
+display: block;
+text-align: center;
+background-color: #e1bf15;
+padding: 10px;
+font-size:large;
+}
 @media screen and (max-width:480px) {
   .container{
     grid-template-columns:1;
-    grid-template-rows: repeat(12,1fr);
+    grid-template-rows: repeat(20,1fr);
   }
 }
 

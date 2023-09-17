@@ -1,21 +1,10 @@
 body {
 font-family:'Poppins, sans-serif' ; 
 background-image: radial-gradient(circle, #de250a, #e35900, #e57e00, #e49f00, #e0be15, #e1bf15, #e1bf15, #e2c015, #e8a200, #eb8200, #ec5d00, #e92b0f);
-
-
-
 }
- .carrinho{
-  
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    max-width: 4%; 
-    height: auto; 
-}
- 
+
 h1 {
-  color:#1c0489;
+  color:#080708;
  
   text-align: center;
   font-size: 30px;
@@ -23,7 +12,7 @@ h1 {
 }
 
 h2 {
-  color:#02275c;
+  color:#050606;
   font-size:x-large ;
   font-size:15px;
   font-style: normal;
@@ -34,7 +23,9 @@ form {
 display: flex;
   
 }
-
+fieldset{
+  border: none;
+}
 .input-hover:hover {
   border-color: #f7d8d8;
   background:#111111;
@@ -60,7 +51,7 @@ cursor: pointer;
 a {
   
   display: block;
-  color: #043cca;
+  color: #2b0267;
   text-decoration: none;
   transition: 0.3s;
   cursor: pointer;
@@ -69,6 +60,20 @@ a {
 a:hover {
   opacity: 0.7;
 }
+
+footer{
+
+  background-color: black;
+  text-align: center;
+  }
+
+  .frase{
+
+    color: rgb(252, 6, 6);
+  }
+   .voltar{
+    text-align: center;
+   }
 /* Responsivo */
 
 @media (max-width: 600px) {

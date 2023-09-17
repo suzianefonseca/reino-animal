@@ -83,14 +83,7 @@ p{
         }
         
          
-        .pata{
-            margin:900px;
-            height:250px;
-            padding-top:150px;
-           margin-top: 300px;
-    
-           
-        }
+        
        
         h1{ 
             
@@ -116,4 +109,32 @@ p{
               nav ul {
                 text-align: center;
               } 
-    
+              .frase{
+                color: rgb(252, 6, 6);
+}
+              
+footer{
+
+background-color: black;
+text-align: center;
+}
+/*responsivo*/
+
+@media (max-width: 768px) {
+  
+    .main {
+      flex-direction: column; 
+    }
+    .imagem {
+        background-image: url(pets/Firefly\ gato\ e\ cachorro\ juntos\ 10.png);
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        background-position: center;
+        width: 100%; 
+        height: 90vh;
+        max-width: 500px; 
+      }
+    .descricao-loja {
+      width: 100%; 
+    }
+  }
