@@ -1,69 +1,127 @@
 <!DOCTYPE html>
-<html lang="pr-br">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>juntos</title>
-
-    <link rel="stylesheet" type="text/css" href="trabalheconosco.css" />
-
+    <title>Trabalhe Conosco</title>
+    <link rel="stylesheet" href="trabalheconosco.css">
 </head>
-
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/trabalheconosco.html"></a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <h2>Trabalhe Conosco</h2>
+    <!-- Conteúdo da página inicial -->
 
-
-
-    <fieldset>
+  <section id="trabalhe-conosco">
+    <h2>Cadastre-se!</h2>
+    <form action="enviar_formulario.php" method="post">
+      <fieldset>
         <legend>Informações Pessoais</legend>
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required>
 
-
         <label for="telefone">Telefone:</label>
-        <input type="text" id="telefone" name="telefone" required>
-
+        <input type="tel" id="telefone" name="telefone" required>
+       
+        <label for="telefone">E-mail:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+    
         <label for="endereco">Endereço:</label>
         <input type="text" id="endereco" name="endereco" required>
-    </fieldset>
+      </fieldset>
 
-    <fieldset>
+      <fieldset>
         <legend>Experiência Profissional</legend>
-        <label for="experiencia">Experiência Profissional:</label>
-        <input type="text" id="experiencia" name="experiencia" required>
-    </fieldset>
+        <label for="experiencia">Locais onde trabalhou:</label>
+        <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+      </fieldset>
 
-    <fieldset>
+      <fieldset>
         <legend>Formação e Cursos</legend>
-        <label for="formacao">Formação:</label>
+        <label for="formacao">Ensino médio:</label>
         <input type="text" id="formacao" name="formacao" required>
-
+        <label for="formacao">Graduação:</label>
+        <input type="text" id="formacao" name="formacao" required>
+        <label for="formacao">Pós-Graduação:</label>
+        <input type="text" id="formacao" name="formacao" required>
         <label for="cursos">Cursos Realizados:</label>
         <input type="text" id="cursos" name="cursos" required>
-    </fieldset>
+      </fieldset>
 
-    <fieldset>
+      <fieldset>
         <legend>Redes Sociais</legend>
-        <label for="redes-sociais">Redes Sociais:</label>
-        <input type="text" id="redes-sociais" name="redes-sociais" required>
+        <label for="redes-sociais">Facebook:</label>
+        <input type="text" id="redes-sociais" name="redes-sociais">
+        <label for="redes-sociais">Linkedin:</label>
+        <input type="text" id="redes-sociais" name="redes-sociais">
+        <label for="redes-sociais">GitHub:</label>
+        <input type="text" id="redes-sociais" name="redes-sociais">
     </fieldset>
+        
+        <fieldset>
+            <legend>Sobre você</legend>
+            <label for="Seu perfil">Seu perfil:</label>
+            <textarea name="caixa" cols="25" rows="5" id="caixa" required> </textarea>
+           
+              
+      </fieldset>
+      
+      <h4>Envie seu currículo</h4>
+      <input type="file"/>
 
-    <h3>Envie seu Curriculo</h3>
-    <input type="file" />
-    <input type="submit" value="Enviar">
-    
-    <li><a href="index.html">Voltar à página principal</a></li>
-
-    <footer>
-        <div>
-         <p class="frase">Desenvolvido por Suziane Valentim Fonseca &copy  2023</p>   
-        <p class="frase"> Fale conosco: Telefone: (71) 98821-2029</p>
-        <p class="frase">E-mail:suzianefonseca90@gmail.com</p>
+      <input type="submit" value="Enviar">
+    </form>
+    <div class="voltar">
+        <a href="index.html">Voltar à Página Principal</a>
         </div>
-        </footer>
+  </section>
+    
 
+    <footer class="store-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                <h2>Desenvolvido por Suziane Valentim Fonseca &copy</h2>
+                    
+                </div>
+                <div class="footer-section">
+                    <h2>Nossa loja</h2>
+                    <ul>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="cliente.html">Cliente</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Trabalhe conosco</h2>
+                    <ul>
+                        <li><a href="trabalheconosco.html">Trabalhe conosco</a></li>
+                        <li><a href="paginadaaluna.html">Pagina da aluna</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Redes Sociais</h2>
+                    <ul>
+                        <li>
+                            <a  href="https://github.com/suzianefonseca"target="_blank">
+                                <img class="foto" src="pets/icone github.png" alt="Git Hub">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://web.whatsapp.com/send/?phone=5571988212029"target="_blank">
+                                <img class="foto" src="pets/icone zap.jpeg" alt="whatsaap">
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    </footer>
     
 </body>
 

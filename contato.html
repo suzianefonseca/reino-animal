@@ -1,73 +1,123 @@
 
 <!DOCTYPE html>
 <html lang="pr-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contato.css">
-    <title>Fale Conosco</title>
-
+    <title>Contato</title>
 
 </head>
 
-<body> 
-  <form> 
-<fieldset>
+<body>
 
-<legend><h2>Contato</h2></legend>
-<p>
-<div class="contato">
-<table cellspacing="10">
-</td> 
+    <form method="post" action="#">
+        <fieldset>
+            <legend>
+                <h2>Fale conosco</h2>
+            </legend>
+            <div class="contato">
+                <table cellspacing="15">
+                    <tr>
+                        <td>
+                            <label for="nome">Nome: </label>
+                        </td>
+                        <td align="left">
+                            <input type="text" name="nome" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="sobrenome">E-mail: </label>
+                        </td>
+                        <td align="left">
+                            <input type="text" name="email" required>
+                        </td>
+                    </tr>
+                </table>
+
+                <table cellspacing="15">
+                    <tr>
+                        <td>
+                            <label for="nome">Telefone:</label>
+                            <input type="tel" id="telefone" class="input-padrao" required
+                                    placeholder="(xx) xxxxx-xxxx"><br>
+                        </td>
+                    <tr>
+                </table>
+            </div>
+
+            <div class="caixa">
+                <label for="caixa">Mensagem</label>
+                <textarea name="caixa" cols="40" rows="10" id="caixa" required></textarea>
+            </div>
+
+            <div class="botao">
+                <input type="submit" name="botao__enviar" value="Enviar" required>
+            </div>
+        </fieldset>
+    </form>
+
+    <div class="voltar">
+        <a href="index.html">Voltar à Página Principal</a>
+    </div>
+        </section>
+        <div class="google-map">
+            
+            <div class="map-responsive">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99579.22761525537!2d-9.24213739652528!3d38.74418442021145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisboa%2C%20Portugal!5e0!3m2!1spt-BR!2sbr!4v1693594618601!5m2!1spt-BR!2sbr"
+                    width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     
-<tr>
-<td>
-<label for="sobrenome">Email: </label>
-</td>
-<td align="left">
-<input type="text" name="email" required>
-</td>
-</tr>
-                        
-<table cellspacing="10">
-<tr>
-<td>
-<label for="nome">Telefone:</label>
-<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"><br>
-</td>
-<tr>
-<td>
-</div>
 
-<div class="caixa">
-<label for="caixa">Fale Conosco.</label><br>
-<textarea name="caixa" cols="30" rows="10" id="caixa" required></textarea>
-          
-</div>
-<p>
-<div class="botao">
-<input type="submit" name="botao__enviar" value="Enviar" required>
-</p>
-</div>
-</div>    
-</fieldset>
-    
-</form> 
-<br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55626.886788977274!2d-50.90766795862881!3d-29.37964507405557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951932427804321f%3A0xa71c25f081e5aea6!2sGramado%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1693596509794!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-<div class="voltar">
-  <a href="index.html">Voltar à Página Principal</a>
-</div>
-
-
-<footer>
-  <div>
-   <p class="frase">Desenvolvido por Suziane Valentim Fonseca &copy  2023</p>   
-  <p class="frase"> Fale conosco: Telefone: (71) 98821-2029</p>
-  <p class="frase">E-mail:suzianefonseca90@gmail.com</p>
-  </div>
-  </footer>
-
+    <script src="./js/script.js"></script>
+    <script src="./js/javascript.js"></script>
+    <footer class="store-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                <h2>Desenvolvido por Suziane Valentim Fonseca &copy</h2>
+                    
+                </div>
+                <div class="footer-section">
+                    <h2>Nossa loja</h2>
+                    <ul>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="cliente.html">Cliente</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Trabalhe conosco</h2>
+                    <ul>
+                        <li><a href="trabalheconosco.html">Trabalhe conosco</a></li>
+                        <li><a href="paginadaaluna.html">Pagina da aluna</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Redes Sociais</h2>
+                <ul>
+                    <li>
+                        <a  href="https://github.com/suzianefonseca"target="_blank">
+                            <img class="foto" src="pets/icone github.png" alt="Git Hub">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://web.whatsapp.com/send/?phone=5571988212029"target="_blank">
+                            <img class="foto" src="pets/icone zap.jpeg" alt="whatsaap">
+                        </a>
+                    </li>
+                </ul>
+                   
+            </div>
+        </div>
+    </div>
+    </footer>
 </body>
+
 </html>

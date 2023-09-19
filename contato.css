@@ -1,36 +1,32 @@
+body{
+    
+    font-family: 'Poppins, sans-serif';
+    font-size: 20px;
+    font-style: inherit;
+    background-image:  radial-gradient(circle, #ecf605, #f9d600, #ffb500, #ff9300, #ff7000, #ff7000, #ff7000, #ff7000, #ff9300, #ffb500, #f9d600, #ecf605)
+}
 
 form {
     display: flex;
     justify-content: center;
     margin-top: -1rem;
     text-align: center;
-    font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(1, 1, 1);
-    border: 1px;
-  
-}
-fieldset{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    border: none;
-}
-body {
-    
-    background-image: radial-gradient(circle, #de250a, #e35900, #e57e00, #e49f00, #e0be15, #e1bf15, #e1bf15, #e2c015, #e8a200, #eb8200, #ec5d00, #e92b0f);  
-    width: 100%;
+    color: #080808c0;
+   
 }
 
-
+/*CAIXA DE TEXTO*/
 .caixa {
+
     align-items: center;
     margin: 0.5rem;
-    
+    text-decoration-color:#090909c0;
+    color:#0c0c0dc0;
+    font-size: 20px;
 }
 
-
+/*BOTÃO ENVIAR*/
 .botao {
     align-items: center;
     display: flex;
@@ -38,27 +34,75 @@ body {
     margin-top: 0.5px;
 }
 
-
+/*CLICK VOLTAR*/
 .voltar {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-
+    margin-top: 10px;
+    color:#070708c0;
+    font-size: 20px;
 }
 
-footer{
 
-    background-color: black;
-    text-align: center;
-   
+.store-footer {
+    background-color: #070707;
+    color: rgb(247, 3, 3);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.footer-section {
+    flex: 1;
+    margin-right:10px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+
+.foto{
+max-width: 10%; 
+height: auto; 
+}
+.footer-content {
+    flex-direction: column;
+}
+
+.footer-section {
+    flex: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+  
+@media screen and (max-width: 768px){
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 100%;
     }
-
-    .frase{
-
-        color: rgb(252, 6, 6);
-      }
-    
-
-
-    
+}

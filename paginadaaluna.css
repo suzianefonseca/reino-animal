@@ -24,14 +24,58 @@ height:100vh;
     margin-top: 30px;
 
 }
-footer{
+/* Estilos gerais do footer */
+.store-footer {
+    background-color: #050505;
+    color: rgb(252, 2, 2);
+}
 
-    background-color: black;
-    text-align: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.foto{
+    max-width: 10%; 
+    height: auto; 
+}
+
+/* Estilos para tornar o footer responsivo */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
     }
 
-    .frase{
-
-        color: rgb(252, 6, 6);
-      } 
+    .footer-section {
+        flex: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
