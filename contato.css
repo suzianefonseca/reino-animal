@@ -87,16 +87,7 @@ form {
 max-width: 10%; 
 height: auto; 
 }
-.footer-content {
-    flex-direction: column;
-}
 
-.footer-section {
-    flex: none;
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 20px;
-}
   
 @media screen and (max-width: 768px){
     input[type="text"],
@@ -105,4 +96,16 @@ height: auto;
     textarea {
         width: 100%;
     }
+
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-section {
+        flex: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
 }

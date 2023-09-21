@@ -1,332 +1,343 @@
+
 /*Reset*/
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 
-font-family: 'Times New Roman', Times, serif;
-
+  font-family: "Times New Roman", Times, serif;
 }
 
-  body{
-    background-image: radial-gradient(circle, #de250a, #e35900, #e57e00, #e49f00, #e0be15, #e1bf15, #e1bf15, #e2c015, #e8a200, #eb8200, #ec5d00, #e92b0f);
-  }
- 
+body {
+  background-image: radial-gradient(
+      circle,
+      #de250a,
+      #e35900,
+      #e57e00,
+      #e49f00,
+      #e0be15,
+      #e1bf15,
+      #e1bf15,
+      #e2c015,
+      #e8a200,
+      #eb8200,
+      #ec5d00,
+      #e92b0f
+  );
+  
+}
+
 /*cabeçalho*/
 
-h1,p {
-text-align:center;
-
-} 
+h1,
+p {
+  text-align: center;
+}
 
 h1 {
-margin-top:50px;
-margin-bottom:20px;
-color: rgb(12, 1, 38);
-
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: rgb(12, 1, 38);
 }
-h4{
-  margin-bottom: 1.5rem; margin-top: 1.5rem;
+h4 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-.frase{
-
+.frase {
   color: rgb(252, 6, 6);
 }
- .sobre-produto{
+.sobre-produto {
   flex-grow: 1;
-  
- }
- .card-description{
+}
+.card-description {
   display: flex;
   flex-direction: column;
- }
+}
 /*galeria*/
 
-.icone{
-  
+.icone {
   position: absolute;
   top: 10px;
   right: 10px;
-  max-width: 4%; 
-  height: auto; 
+  max-width: 4%;
+  height: auto;
 }
 .container {
-display: grid;
-grid-template-columns: repeat(4, 1fr ) ;
-grid-template-rows:repeat(3, 1fr) ;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 
+  grid-template-areas:
+  "prod1 prod2 prod3 prod4"
+  "prod5 prod6 prod7 prod8"
+  "prod9 prod10 prod11 prod12"
+  "prod13 prod14 prod15 prod16"
+  "prod17 prod18 prod19 prod20";
+}
+
+.produto-1 {
+grid-area: prod1;
+}
+.produto-2 {
+grid-area: prod2;
+}
+.produto-3 {
+grid-area: prod3;
+}
+.produto-4 {
+grid-area: prod4;
+}
+.produto-5 {
+grid-area: prod5;
+}
+.produto-6 {
+grid-area: prod6;
+}
+.produto-7 {
+grid-area: prod7;
+}
+.produto-8 {
+grid-area: prod8;
+}
+.produto-9 {
+grid-area: prod9;
+}
+.produto-10 {
+grid-area: prod10;
+}
+.produto-11 {
+grid-area: prod11;
+}
+.produto-12 {
+grid-area: prod12;
+}
+.produto-13 {
+grid-area: prod13;
+}
+.produto-14 {
+grid-area: prod14;
+}
+.produto-15 {
+grid-area: prod15;
+}
+.produto-16 {
+grid-area: prod16;
+}
+.produto-17 {
+grid-area: prod17;
+}
+.produto-18 {
+grid-area: prod18;
+}
+.produto-19 {
+grid-area: prod19;
+}
+.produto-20 {
+grid-area: prod20;
 }
 
 .card {
-display:flex;
-flex-direction: column;
-width:280px;
-margin:20px;
-border-radius:3px;
-background-color: rgb(241, 106, 21);
-
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 20px;
+  border-radius: 3px;
+  background-color: rgb(241, 106, 21);
 }
-.card:hover{
-padding: 10px;
+.card:hover {
+  padding: 10px;
 }
 
-.botao__comprar{
+.botao__comprar {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
 }
 
-.descricao{
+.descricao {
   display: inline-flex;
   color: rgb(1, 13, 1);
 }
-.card-imagem:hover{
-background-color: rgb(245, 245, 252);
-color: rgb(247, 244, 243);
-border-color: rgb(250, 247, 247);
-
+.card-imagem:hover {
+  background-color: rgb(245, 245, 252);
+  color: rgb(247, 244, 243);
+  border-color: rgb(250, 247, 247);
 }
 
 .card-imagem {
-height:300px;
-background-size:cover;
-transition:.2s;
-background-position: center;
-
+  height: 300px;
+  background-size: cover;
+  transition: 0.2s;
+  background-position: center;
 }
 
-.produto-1 .card-imagem{
-background-image:url(pets/suprimento\ de\ cama.jpg);
+.produto-1 .card-imagem {
+  background-image: url(pets/suprimento\ de\ cama.jpg);
 }
-.produto-1 .card-imagem:hover{
-
-background-image:url(pets/cama\ \ suprimento\ fexada.jpg);
-
+.produto-1 .card-imagem:hover {
+  background-image: url(pets/cama\ \ suprimento\ fexada.jpg);
 }
 
-.produto-2 .card-imagem{
-background-image:url(pets/limpa-pata.1.jpg);
-    
- }
- .produto-2 .card-imagem:hover{
-
-  background-image:url(pets/limpa\ patas2.jpg);
-
-  }
-
-.produto-3 .card-imagem{
-background-image:url(pets/pasta-dente.jpg);
-        
- }
- .produto-3 .card-imagem:hover{
-
-  background-image:url(pets/pasta-dente2.jpg);
- }
-
-.produto-4 .card-imagem{
-background-image:url(pets/cadeira-carro.jpg);
-}   
-.produto-4 .card-imagem:hover{
-
-  background-image:url(pets/cadeira-carro2.jpg);
- }
-.produto-5 .card-imagem{
-
-background-image:url(pets/camajambo.jpg);
-
-}   
-.produto-5 .card-imagem:hover{
-
-  background-image:url(pets/camajambo2.jpg);
- }
-.produto-6 .card-imagem{
-background-image:url(pets/biscoito-pet1.jpg);
-}   
-.produto-6 .card-imagem:hover{
-
-  background-image:url(pets/biscoito-pet2.jpg);
- }
-
-.produto-7 .card-imagem{
-background-image:url(pets/bola.jpg);
-}   
-.produto-7 .card-imagem:hover{
-
-  background-image:url(pets/bola2.jpg);
- }
-
-.produto-8 .card-imagem{
-background-image:url(pets/petiscocat.jpg);
+.produto-2 .card-imagem {
+  background-image: url(pets/limpa-pata.1.jpg);
 }
-.produto-8 .card-imagem:hover{
-
-  background-image:url(pets/petiscocat2.jpg);
- }
- .produto-9 .card-imagem{
-  background-image:url(pets/comedouro.jpg);
-  }
-  .produto-9 .card-imagem:hover{
-  
-    background-image:url(pets/comedouro2.jpg);
-   }
-
-  .produto-10 .card-imagem{
-    background-image:url(pets/kitbanhox.jpg);
-    }
-  .produto-10 .card-imagem:hover{
-    
-    background-image:url(pets/kitbanoy.jpg);
-     }
-  
-  .produto-11 .card-imagem{
-
-   background-image:url(pets/petiscocat.jpg);
-
-      }
-
-  .produto-11 .card-imagem:hover{
-      
-  background-image:url(pets/petiscocat2.jpg);
-
-    }
-
-  .produto-12 .card-imagem{
-    background-image:url(pets/tapete\ xixi.jpg);
-
-      }
-
-  .produto-12 .card-imagem:hover{
-        
-    background-image:url(pets/xixipet2.jpg);
-
-      }  
-
-  .produto-13 .card-imagem{
-    background-image:url(pets/areiacat.jpg);
-          }
-  .produto-13 .card-imagem:hover{
-          
-    background-image:url(pets/areiacat2.jpg);
-     }  
-
-  .produto-14 .card-imagem{
-    background-image:url(pets/suport\ p\ petisco.jpg);
-     }
-  .produto-14 .card-imagem:hover{
-            
-    background-image:url(pets/suportpetisco\ gato.jpg);
-     }  
-
-  .produto-15 .card-imagem{
-    background-image:url(pets/gatifilhote.jpg);
-     }
-  .produto-15 .card-imagem:hover{
-              
-    background-image:url(pets/gatopequeno2.jpg);
-    }  
-
-  .produto-16 .card-imagem{
-    background-image:url(pets/racaogatos.jpg);
-
-     }
-
-  .produto-16 .card-imagem:hover{
-                
-    background-image:url(pets/racaogatos2.jpg);
-
-      }       
-
-  .produto-17 .card-imagem{
-    background-image:url(pets/racaogrande.jpg);
-
-      }
-  .produto-17 .card-imagem:hover{
-                  
-    background-image:url(pets/racaogrande2.jpg);
-
-      }
-                  
-  .produto-18 .card-imagem{
-
-    background-image:url(pets/racaopetpqn.jpg);
-
-      }
-
-  .produto-18 .card-imagem:hover{
-                    
-     background-image:url(pets/racaopetpqn2.jpg);
-
-      } 
-                    
-  .produto-19 .card-imagem{
-
-    background-image:url(pets/mochilapet.jpg);
-
-      }
-
-  .produto-19 .card-imagem:hover{
-                      
-    background-image:url(pets/mochilapet2.jpg);
-
-      } 
-                        
-  .produto-20 .card-imagem{
-
-    background-image:url(pets/brinquedocat.jpg);
-
-      }
-
-  .produto-20 .card-imagem:hover{
-                        
-    background-image:url(pets/brinquedocat2.jpg);
-
-      } 
-                        
-  .produto-21 .card-imagem{
-
-    background-image:url(pets/brinquedocachorro.jpg);
-
-      }
-
-  .produto-21 .card-imagem:hover{
-                          
-    background-image:url(pets/brinquedocachorro2.jpg);
-
-      } 
-                   
-.botao__comprar:hover{
-background-color: rgb(3, 250, 11);
-color: rgb(4, 0, 10);
-border-color: rgb(221, 250, 6);
-
-}
-.botao__comprar{
-  border:2px solid rgb(218, 242, 3);
-width:40%;
-padding:0.1rem;
-border-radius:5px;
+.produto-2 .card-imagem:hover {
+  background-image: url(pets/limpa\ patas2.jpg);
 }
 
-.card-description{
-padding:20px 10px;
-
+.produto-3 .card-imagem {
+  background-image: url(pets/pasta-dente.jpg);
+}
+.produto-3 .card-imagem:hover {
+  background-image: url(pets/pasta-dente2.jpg);
 }
 
-/* responsivo*/
+.produto-4 .card-imagem {
+  background-image: url(pets/cadeira-carro.jpg);
+}
+.produto-4 .card-imagem:hover {
+  background-image: url(pets/cadeira-carro2.jpg);
+}
+.produto-5 .card-imagem {
+  background-image: url(pets/camajambo.jpg);
+}
+.produto-5 .card-imagem:hover {
+  background-image: url(pets/camajambo2.jpg);
+}
+.produto-6 .card-imagem {
+  background-image: url(pets/biscoito-pet1.jpg);
+}
+.produto-6 .card-imagem:hover {
+  background-image: url(pets/biscoito-pet2.jpg);
+}
 
-@keyframes container {
-    0% {
-      opacity: 0;
-    }
-    25% {
-      opacity: 1;
-    }
-    75% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
+.produto-7 .card-imagem {
+  background-image: url(pets/bola.jpg);
+}
+.produto-7 .card-imagem:hover {
+  background-image: url(pets/bola2.jpg);
+}
+
+.produto-8 .card-imagem {
+  background-image: url(pets/petiscocat.jpg);
+}
+.produto-8 .card-imagem:hover {
+  background-image: url(pets/petiscocat2.jpg);
+}
+.produto-9 .card-imagem {
+  background-image: url(pets/comedouro.jpg);
+}
+.produto-9 .card-imagem:hover {
+  background-image: url(pets/comedouro2.jpg);
+}
+
+.produto-10 .card-imagem {
+  background-image: url(pets/kitbanhox.jpg);
+}
+.produto-10 .card-imagem:hover {
+  background-image: url(pets/kitbanoy.jpg);
+}
+
+.produto-11 .card-imagem {
+  background-image: url(pets/petiscocat.jpg);
+}
+
+.produto-11 .card-imagem:hover {
+  background-image: url(pets/petiscocat2.jpg);
+}
+
+.produto-12 .card-imagem {
+  background-image: url(pets/tapete\ xixi.jpg);
+}
+
+.produto-12 .card-imagem:hover {
+  background-image: url(pets/xixipet2.jpg);
+}
+
+.produto-13 .card-imagem {
+  background-image: url(pets/areiacat.jpg);
+}
+.produto-13 .card-imagem:hover {
+  background-image: url(pets/areiacat2.jpg);
+}
+
+.produto-14 .card-imagem {
+  background-image: url(pets/suport\ p\ petisco.jpg);
+}
+.produto-14 .card-imagem:hover {
+  background-image: url(pets/suportpetisco\ gato.jpg);
+}
+
+.produto-15 .card-imagem {
+  background-image: url(pets/gatifilhote.jpg);
+}
+.produto-15 .card-imagem:hover {
+  background-image: url(pets/gatopequeno2.jpg);
+}
+
+.produto-16 .card-imagem {
+  background-image: url(pets/racaogatos.jpg);
+}
+
+.produto-16 .card-imagem:hover {
+  background-image: url(pets/racaogatos2.jpg);
+}
+
+.produto-17 .card-imagem {
+  background-image: url(pets/racaogrande.jpg);
+}
+.produto-17 .card-imagem:hover {
+  background-image: url(pets/racaogrande2.jpg);
+}
+
+.produto-18 .card-imagem {
+  background-image: url(pets/racaopetpqn.jpg);
+}
+
+.produto-18 .card-imagem:hover {
+  background-image: url(pets/racaopetpqn2.jpg);
+}
+
+.produto-19 .card-imagem {
+  background-image: url(pets/mochilapet.jpg);
+}
+
+.produto-19 .card-imagem:hover {
+  background-image: url(pets/mochilapet2.jpg);
+}
+
+.produto-20 .card-imagem {
+  background-image: url(pets/brinquedocat.jpg);
+}
+
+.produto-20 .card-imagem:hover {
+  background-image: url(pets/brinquedocat2.jpg);
+}
+
+.produto-21 .card-imagem {
+  background-image: url(pets/brinquedocachorro.jpg);
+}
+
+.produto-21 .card-imagem:hover {
+  background-image: url(pets/brinquedocachorro2.jpg);
+}
+
+.botao__comprar:hover {
+  background-color: rgb(3, 250, 11);
+  color: rgb(4, 0, 10);
+  border-color: rgb(221, 250, 6);
+}
+.botao__comprar {
+  border: 2px solid rgb(218, 242, 3);
+  width: 40%;
+  padding: 0.1rem;
+  border-radius: 5px;
+}
+
+.card-description {
+  padding: 20px 10px;
+}
+
+
 /* Estilo do rodapé (footer) */
 
 .store-footer {
@@ -344,12 +355,11 @@ padding:20px 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
 .footer-section {
   flex: 1;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
 .footer-section h2 {
@@ -366,27 +376,123 @@ padding:20px 10px;
   margin-bottom: 8px;
 }
 
-
-.foto{
-max-width: 10%; 
-height: auto; 
+.foto {
+  max-width: 10%;
+  height: auto;
 }
 
-
-
-.voltar{
-display: block;
-text-align: center;
-background-color: #e1bf15;
-padding: 10px;
-font-size:large;
+.voltar {
+  display: block;
+  text-align: center;
+  background-color: #e1bf15;
+  padding: 10px;
+  font-size: large;
 }
 
-@media screen and (max-width:768px) {
-  .container{
-    grid-template-columns:1;
-    grid-template-rows: repeat(20,1fr);
-    width: 100%;
+@media screen and (max-width: 480px) {
+  .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(20, 1fr);
+      width: 100%;
+
+      grid-template-areas:
+      "prod1"
+      "prod2"
+      "prod3"
+      "prod4"
+      "prod5"
+      "prod6"
+      "prod7"
+      "prod8"
+      "prod9"
+      "prod10"
+      "prod11"
+      "prod12"
+      "prod13"
+      "prod14"
+      "prod15"
+      "prod16"
+      "prod17"
+      "prod18"
+      "prod19"
+      "prod20";
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .produto-1 {
+    grid-area: prod1;
+  }
+  .produto-2 {
+    grid-area: prod2;
+  }
+  .produto-3 {
+    grid-area: prod3;
+  }
+  .produto-4 {
+    grid-area: prod4;
+  }
+  .produto-5 {
+    grid-area: prod5;
+  }
+  .produto-6 {
+    grid-area: prod6;
+  }
+  .produto-7 {
+    grid-area: prod7;
+  }
+  .produto-8 {
+    grid-area: prod8;
+  }
+  .produto-9 {
+    grid-area: prod9;
+  }
+  .produto-10 {
+    grid-area: prod10;
+  }
+  .produto-11 {
+    grid-area: prod11;
+  }
+  .produto-12 {
+    grid-area: prod12;
+  }
+  .produto-13 {
+    grid-area: prod13;
+  }
+  .produto-14 {
+    grid-area: prod14;
+  }
+  .produto-15 {
+    grid-area: prod15;
+  }
+  .produto-16 {
+    grid-area: prod16;
+  }
+  .produto-17 {
+    grid-area: prod17;
+  }
+  .produto-18 {
+    grid-area: prod18;
+  }
+  .produto-19 {
+    grid-area: prod19;
+  }
+  .produto-20 {
+    grid-area: prod20;
+  }
+
+  .botao__comprar {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -394,27 +500,27 @@ font-size:large;
 
 @keyframes container {
   0% {
-    opacity: 0;
+      opacity: 0;
   }
   25% {
-    opacity: 1;
+      opacity: 1;
   }
   75% {
-    opacity: 1;
+      opacity: 1;
   }
   100% {
-    opacity: 0;
+      opacity: 0;
   }
 }
-@media (max-width: 768px){
-.footer-content {
-  flex-direction: column;
-}
+@media (max-width: 768px) {
+  .footer-content {
+      flex-direction: column;
+  }
 
-.footer-section {
-  flex: none;
-  width: 100%;
-  margin-right: 0;
-  margin-bottom: 20px;
-}
+  .footer-section {
+      flex: none;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
 }
