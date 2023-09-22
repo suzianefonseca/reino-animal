@@ -45,43 +45,15 @@ form {
 }
 
 
-.store-footer {
-    background-color: #070707;
-    color: rgb(247, 3, 3);
-}
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+footer{
+    background-color: #080808;
+  }
     
-}
-
-.footer-section {
-    flex: 1;
-    margin-right:10px;
-}
-
-.footer-section h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 8px;
-}
-
+  .desenvolvido{
+    color: rgb(246, 4, 4);
+  }
+    
 
 .foto{
     max-width: 10%; 
