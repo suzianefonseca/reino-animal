@@ -7,13 +7,41 @@
     <link rel="stylesheet" href="trabalheconosco.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="/trabalheconosco.html"></a></li>
-      </ul>
+  <header class="header">
+    <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    
+    
+    <nav class="menu">
+        
+        
+        <ul>
+            
+        
+             <li><a href="index.html">Página Inicial</a></li>
+            
+                <li><a href="cliente.html">Cliente</a></li>
+
+                <li><a href="produtos.html">Produtos</a></li>
+            
+                <li><a href="contato.html">Contato</a></li>
+            
+        
+                <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+        
+            <li><a href="paginadaaluna.html">Pagina da Aluna</a></li>
+
+
+        </ul>
+
+    
     </nav>
-  </header>
+
+</header>
+
 
     <!-- Conteúdo da página inicial -->
 
@@ -82,46 +110,37 @@
   </section>
     
 
-    <footer class="store-footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                <h2>Desenvolvido por Suziane Valentim Fonseca &copy</h2>
-                    
-                </div>
-                <div class="footer-section">
-                    <h2>Nossa loja</h2>
-                    <ul>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="cliente.html">Cliente</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h2>Trabalhe conosco</h2>
-                    <ul>
-                        <li><a href="trabalheconosco.html">Trabalhe conosco</a></li>
-                        <li><a href="paginadaaluna.html">Pagina da aluna</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h2>Redes Sociais</h2>
-                    <ul>
-                        <li>
-                            <a  href="https://github.com/suzianefonseca"target="_blank">
-                                <img class="foto" src="pets/icone github.png" alt="Git Hub">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://web.whatsapp.com/send/?phone=5571988212029"target="_blank">
-                                <img class="foto" src="pets/icone zap.jpeg" alt="whatsaap">
-                            </a>
-                        </li>
-                    </ul>
-            </div>
-        </div>
-    </div>
+    <footer>
+      <h2 class="desenvolvido">Desenvolvido por Suziane Valentim Fonseca &copy</h2>
+
+     <ul>
+        <li>
+          <a  href="https://github.com/suzianefonseca"target="_blank">
+            <img class="foto" src="pets/icone github.png" alt="Git Hub">
+            </a>
+        </li>
+        <li>
+          <a href="https://web.whatsapp.com/send/?phone=5571988212029"target="_blank">
+            <img class="foto" src="pets/icone zap.jpeg" alt="whatsaap">
+          </a>
+        </li>
+
+
+      </ul>
+            
+        
     </footer>
+    <script>
+      // botão de hambúrguer e o menu
+      const menuToggle = document.querySelector(".menu-toggle");
+      const menu = document.querySelector(".menu");
+      
+      //  evento de clique ao botão de hambúrguer
+      menuToggle.addEventListener("click", function () {
+          // Toggle (alternar) a classe "active" no menu
+          menu.classList.toggle("active");
+      });
+  </script>
     
 </body>
 

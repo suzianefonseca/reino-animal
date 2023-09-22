@@ -2,8 +2,6 @@
 
 body{ 
     font-family: arial, helvetica, sans-serif; 
-    
-   
     background-image:  radial-gradient(circle, #ecf605, #f9d600, #ffb500, #ff9300, #ff7000, #ff7000, #ff7000, #ff7000, #ff9300, #ffb500, #f9d600, #ecf605)
 }
 .header{
@@ -33,8 +31,8 @@ p{
     padding: 20px;
 }
 .icone{
-    width:100px;
-    height: 100px;
+    width:150px;
+    height: 150px;
 }
 .menu{
     list-style:none; 
@@ -42,13 +40,13 @@ p{
     float:left; 
     font-weight: bold;
     margin-top: 5px;
-    }
+}
 
-    .menu li{
+.menu li{
     position:relative;
     float:left;
     border-right:0px solid #070139;
-    } 
+} 
 
     .menu li a{
         color:#0e0130; 
@@ -58,11 +56,11 @@ p{
     }
 
     .menu li a:hover{
-    background:#ea1805;
-    color:#0c0134;
-    -moz-box-shadow:0 3px 10px 0 #0a0431; 
-    -webkit-box-shadow:0 3px 10px 0 #0e0230;
-    text-shadow:0px 0px 5px #ffffff;
+        background:#ea1805;
+        color:#0c0134;
+        -moz-box-shadow:0 3px 10px 0 #0a0431; 
+        -webkit-box-shadow:0 3px 10px 0 #0e0230;
+        text-shadow:0px 0px 5px #ffffff;
     } 
     .menu li ul{
         position:absolute; 
@@ -70,27 +68,24 @@ p{
         left:0;
         background-color:#e93b06;
         display:none;
-        }
-        .menu li:hover ul, .menu li.hover ul{ display:block;} 
+    }
+    .menu li:hover ul, .menu li.hover ul{ 
+            display:block;
+    } 
               
-        .menu li ul li{
+.menu li ul li{
             border:1px solid #f5f1f1;
             display:block; 
             width:150px;
     
-        }
-        
-         
-        
-       
-        h1{ 
-            
-            font-size:x-large ; 
-            text-align:center; 
-            font-size:50px;
-            font-style:italic; 
-            font-family:fredericka the great,fantasy; 
-        }
+}
+ h1{   
+    font-size:x-large ; 
+    text-align:center; 
+    font-size:50px;
+    font-style:italic; 
+    font-family:fredericka the great,fantasy; 
+}
        
         body { 
             

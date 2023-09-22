@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="pr-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formulário-Cliente</title>
-<link rel="shortcut icon" href="pets/logo1.png">
-<link rel="stylesheet" href="cliente.css">
-</head>
-<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pets/logo1.png">
+    <link rel="stylesheet" href="cliente.css">
 
+    <title>Formulário-Cliente</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu-toggle">
+                
+               
+        <div class="bar"></div>
+                
+               
+        <div class="bar"></div>
+                
+                
+        <div class="bar"></div>
+            
+        
+        </div>
+            
+            
+        <nav class="menu">
+                
+                
+        <ul>
+                    
+                
+        <li><a href="index.html">Página Inicial</a></li>
+                    
+        <li><a href="cliente.html">Cliente</a></li>
+    
+        <li><a href="produtos.html">Produtos</a></li>
+                    
+        <li><a href="contato.html">Contato</a></li>
+                    
+                
+        <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+                
+        <li><a href="paginadaaluna.html">Pagina da Aluna</a></li>
+    
+    
+        </ul>
+    
+            
+        </nav>
+    
+    </header>
+    
    
 
-<p><h1>Presado cliente seja bem vindo!</h1></p>
+<p><h1>Prezado cliente seja bem vindo!</h1></p>
 <h2>Preencha o formulário abaixo</h2>
   
 <fieldset> 
@@ -222,6 +267,8 @@
 <input type="reset" value="Limpar">
 
 </form>
+
+
 <div class="voltar">
     
 <a href="index.html">Voltar à Página Principal</a>
@@ -233,23 +280,10 @@
             <h2 class="nome">Desenvolvido por Suziane Valentim Fonseca &copy</h2>
                 
             </div>
+            
+           
             <div class="footer-section">
-                <h2 class="nome">Nossa loja</h2>
-                <ul>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="cliente.html">Cliente</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h2 class="nome">Trabalhe conosco</h2>
-                <ul>
-                    <li><a href="trabalheconosco.html">Trabalhe conosco</a></li>
-                    <li><a href="paginadaaluna.html">Pagina da aluna</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h2 class="nome">Redes Sociais</h2>
+               
                 <ul>
                     <li>
                         <a  href="https://github.com/suzianefonseca"target="_blank">
@@ -267,6 +301,18 @@
   
 </div>
 </footer>
+<script>
+    //  botão de hambúrguer e o menu
+const menuToggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu");
+
+//  evento de clique ao botão de hambúrguer
+menuToggle.addEventListener("click", function () {  
+    // Toggle (alternar) a classe "active" no menu
+    menu.classList.toggle("active");
+    });
+</script>
+
 
 
 </body>

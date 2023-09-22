@@ -11,9 +11,44 @@
 
 
 <body>
-    <header>
-
-    </header>
+    
+        <header class="header">
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            
+            
+            <nav class="menu">
+                
+                
+                <ul>
+                    
+                
+                     <li><a href="index.html">Página Inicial</a></li>
+                    
+                        <li><a href="cliente.html">Cliente</a></li>
+    
+                        <li><a href="produtos.html">Produtos</a></li>
+                    
+                        <li><a href="contato.html">Contato</a></li>
+                    
+                
+                        <li><a href="trabalheconosco.html">Trabalhe Conosco</a></li>
+                
+                    <li><a href="paginadaaluna.html">Pagina da Aluna</a></li>
+    
+    
+                </ul>
+    
+            
+            </nav>
+    
+        </header>
+    
+    
+    
     <main class="main">
     <div class="imagem">
 
@@ -36,24 +71,9 @@
                 <div class="footer-section">
                 <h2>Desenvolvido por Suziane Valentim Fonseca &copy</h2>
                     
-                </div>
+                
                 <div class="footer-section">
-                    <h2>Nossa loja</h2>
-                    <ul>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="cliente.html">Cliente</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h2>Trabalhe conosco</h2>
-                    <ul>
-                        <li><a href="trabalheconosco.html">Trabalhe conosco</a></li>
-                        <li><a href="paginadaaluna.html">Pagina da aluna</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h2>Redes Sociais</h2>
+                    
                     <ul>
                         <li>
                             <a  href="https://github.com/suzianefonseca"target="_blank">
@@ -70,5 +90,17 @@
         </div>
     </div>
     </footer>
+
+    <script>
+        // botão de hambúrguer e o menu
+        const menuToggle = document.querySelector(".menu-toggle");
+        const menu = document.querySelector(".menu");
+        
+        //  evento de clique ao botão de hambúrguer
+        menuToggle.addEventListener("click", function () {
+            // Toggle (alternar) a classe "active" no menu
+            menu.classList.toggle("active");
+        });
+    </script>
 </body>
 </html>
