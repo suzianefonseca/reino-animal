@@ -47,54 +47,58 @@ body {
   border-radius: 5px;
   cursor: pointer;
   }
-  
-  
-  
-  
-  
+
   /* Estilos gerais do footer */
-  .store-footer {
-    background-color: #0c0c0c;
-    color: rgb(249, 3, 3);
-  }
   
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .footer-content {
+  footer{
+    background-color: #080808;
+    flex-direction: column;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+    width: 100%;
+   margin-top:5rem; /* ele baixa o footer*/
   
-  .footer-section {
-    flex: 1;
-    margin-right: 20px;
   }
+  .dog{
+    width:150px;
+    height: 150px;
+    display: flex;
+  margin-left: 40rem;
+  padding-top: 10px;
+  }
+    
+  .desenvolvido{
+    color: red;
+    padding:1rem 0 ;
+    text-align: center;
+}
+  .desenvolvido span{
+    color:#ecf605
+  }   
+.foto  {
+    width: 3%; 
+    margin-right: 10px;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 40rem;
+   
   
-  .footer-section h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
+}
+ .bandeiras{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+   display: inline-block;
   
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
+ }
+ .segurança{
+    width: 250px;
+   height: 40%;
+ }
+ .redes {
+    color: #f9f9f9;
+    text-align: center;
+ }
   
-  .footer-section ul li {
-    margin-bottom: 8px;
-  }
-   .nome{
-    color: #f72404;
-   }
-   .foto{
-    max-width: 10%; 
-    height: auto; 
-  }
   .voltar{
     align-items: center;
     display: flex;
@@ -104,17 +108,30 @@ body {
   
   /*  footer responsivo */
   @media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-      }
+    .dog {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      margin-left: 41rem;
+      padding-top: 40px;
+    }
   
-    .footer-section {
-        flex: none;
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
+    .desenvolvido {
+      font-size: 0.8rem;
+    }
+  
+    .segurança {
+      max-width: 150px;
     }
   }
+  .foto  {
+    width: 3%; 
+    margin-right: 10px;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 41rem;
+  }
+ 
   
   /* Estilos para o ícone de hambúrguer */
 

@@ -90,25 +90,92 @@ a {
   text-decoration: none;
   font-size: 15px;
 }
+
+/* Estilos gerais do footer */
+             
+footer{
+  background-color: #080808;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+ margin-top:25rem; /* ele baixa o footer*/
+
+}
+.dog{
+  width:150px;
+  height: 150px;
+  display: flex;
+margin-left: 40rem;
+padding-top: 10px;
+}
+  
+.desenvolvido{
+  color: red;
+  padding:1rem 0 ;
+  text-align: center;
+}
+.desenvolvido span{
+  color:#ecf605
+}   
+.foto  {
+  width: 3%; 
+  margin-right: 10px;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 41rem;
+ 
+
+}
+.bandeiras{
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+ display: inline-block;
+
+}
+.segurança{
+  width: 250px;
+ height: 40%;
+}
+.redes {
+  color: #f9f9f9;
+  text-align: center;
+}
 .voltar{
   align-items: center;
   display: flex;
   justify-content: center;
   margin-top: 30px;
   }
-  footer{
-    background-color: #080808;
-  }
-.desenvolvido{
-  color: rgb(246, 4, 4);
-}
-.foto{
   
-    max-width: 50px; 
-    height: 50px;
-    justify-content:space-between;
-}
+/* Estilos responsivos footer*/
+@media (max-width: 768px) {
+  .dog {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: 10rem;
+    padding-top: 8px;
+  }
 
+  .desenvolvido {
+    font-size: 0.8rem;
+  }
+
+  .segurança {
+    max-width: 150px;
+  }
+
+  .foto  {
+    width: 3%; 
+    margin-right: 10px;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 41rem;
+   
+  
+} 
+}
 /* Estilo para dispositivos móveis */
 @media screen and (max-width: 600px) {
   header {

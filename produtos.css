@@ -236,88 +236,79 @@ grid-area: prod20;
 .produto-10 .card-imagem:hover {
   background-image: url(pets/kitbanoy.jpg);
 }
-
 .produto-11 .card-imagem {
-  background-image: url(pets/petiscocat.jpg);
-}
-
-.produto-11 .card-imagem:hover {
-  background-image: url(pets/petiscocat2.jpg);
-}
-
-.produto-12 .card-imagem {
   background-image: url(pets/tapete\ xixi.jpg);
 }
 
-.produto-12 .card-imagem:hover {
+.produto-11 .card-imagem:hover {
   background-image: url(pets/xixipet2.jpg);
 }
 
-.produto-13 .card-imagem {
+.produto-12 .card-imagem {
   background-image: url(pets/areiacat.jpg);
 }
-.produto-13 .card-imagem:hover {
+.produto-12 .card-imagem:hover {
   background-image: url(pets/areiacat2.jpg);
 }
 
-.produto-14 .card-imagem {
+.produto-13 .card-imagem {
   background-image: url(pets/suport\ p\ petisco.jpg);
 }
-.produto-14 .card-imagem:hover {
+.produto-13 .card-imagem:hover {
   background-image: url(pets/suportpetisco\ gato.jpg);
 }
 
-.produto-15 .card-imagem {
+.produto-14 .card-imagem {
   background-image: url(pets/gatifilhote.jpg);
 }
-.produto-15 .card-imagem:hover {
+.produto-14 .card-imagem:hover {
   background-image: url(pets/gatopequeno2.jpg);
 }
 
-.produto-16 .card-imagem {
+.produto-15 .card-imagem {
   background-image: url(pets/racaogatos.jpg);
 }
 
-.produto-16 .card-imagem:hover {
+.produto-15 .card-imagem:hover {
   background-image: url(pets/racaogatos2.jpg);
 }
 
-.produto-17 .card-imagem {
+.produto-16 .card-imagem {
   background-image: url(pets/racaogrande.jpg);
 }
-.produto-17 .card-imagem:hover {
+.produto-16 .card-imagem:hover {
   background-image: url(pets/racaogrande2.jpg);
 }
 
-.produto-18 .card-imagem {
+.produto-17 .card-imagem {
   background-image: url(pets/racaopetpqn.jpg);
 }
 
-.produto-18 .card-imagem:hover {
+.produto-17 .card-imagem:hover {
   background-image: url(pets/racaopetpqn2.jpg);
 }
 
-.produto-19 .card-imagem {
+.produto-18 .card-imagem {
   background-image: url(pets/mochilapet.jpg);
 }
 
-.produto-19 .card-imagem:hover {
+.produto-18 .card-imagem:hover {
   background-image: url(pets/mochilapet2.jpg);
 }
 
-.produto-20 .card-imagem {
+.produto-19 .card-imagem {
   background-image: url(pets/brinquedocat.jpg);
 }
 
-.produto-20 .card-imagem:hover {
+.produto-19 .card-imagem:hover {
   background-image: url(pets/brinquedocat2.jpg);
 }
 
-.produto-21 .card-imagem {
+.produto-20 .card-imagem {
   background-image: url(pets/brinquedocachorro.jpg);
 }
 
-.produto-21 .card-imagem:hover {
+.produto-20 .card-imagem:hover {
   background-image: url(pets/brinquedocachorro2.jpg);
 }
 
@@ -339,25 +330,54 @@ grid-area: prod20;
 
 
 /* Estilo do rodapé (footer) */
-a {
-  display: block;
-  margin-top: 20px;
-  text-decoration: none;
-  font-size: 15px;
-}
 footer{
   background-color: #080808;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+ margin-top:25rem; /* ele baixa o footer*/
+
 }
+.dog{
+  width:150px;
+  height: 150px;
+  display: flex;
+margin-left: 40rem;
+padding-top: 10px;
+}
+  
 .desenvolvido{
-color: rgb(246, 4, 4);
+  color: red;
+  padding:1rem 0 ;
+  text-align: center;
 }
-.foto{
+.desenvolvido span{
+  color:#ecf605
+}   
+.foto  {
+  width: 3%; 
+  margin-right: 10px;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 41rem;
+ 
 
-  max-width: 50px; 
-  height: 50px;
-  justify-content:space-between;
 }
+.bandeiras{
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+ display: inline-block;
 
+}
+.segurança{
+  width: 250px;
+ height: 40%;
+}
+.redes {
+  color: #f9f9f9;
+  text-align: center;
+}
 .voltar {
   display: block;
   text-align: center;
@@ -365,6 +385,34 @@ color: rgb(246, 4, 4);
   padding: 10px;
   font-size: large;
 }
+@media (max-width: 768px) {
+  .dog {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: 10rem;
+    padding-top: 8px;
+  }
+
+  .desenvolvido {
+    font-size: 0.8rem;
+  }
+
+  .segurança {
+    max-width: 150px;
+  }
+
+  .foto  {
+    width: 3%; 
+    margin-right: 10px;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 41rem;
+   
+  
+} 
+}
+ 
 
 @media screen and (max-width: 480px) {
   .container {
