@@ -173,7 +173,7 @@ footer {
   .imagem {
     background-image: url(pets/Firefly\ gato\ e\ cachorro\ juntos\ 10.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
     background-position: center;
     width: 80%;
     height: 90vh;
