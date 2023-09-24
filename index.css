@@ -181,15 +181,22 @@ footer{
     .segurança {
       max-width: 150px;
     }
-
-    .foto  {
-      width: 3%; 
-      margin-right: 10px;
-      align-items: center;
-      margin: 0 auto;
-      margin-left: 41rem;
-     
-    
-  } 
   }
+   /* Estilos para dispositivos móveis (tamanhos de tela menores que 768px) */
+@media screen and (max-width: 768px) {
+  .foto {
+    width: 10%; 
+    max-width: 10%; 
+    margin: 0 auto; /* Centralize a imagem horizontalmente */
+    display: block; /* Certifique-se de que a imagem seja exibida como um bloco */
+  }
+}
+/* Estilos para dispositivos maiores que 768px */
+@media screen and (min-width: 769px) {
+  .foto {
+    width: 5%; /* Largura da imagem para telas maiores */
+    margin-right: 10px; /* Espaçamento à direita */
+    margin-left: 41rem; /* Espaçamento à esquerda (se necessário) */
+  }
+}
    
