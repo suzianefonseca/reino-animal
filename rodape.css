@@ -1,0 +1,95 @@
+footer {
+    background-color: #080808;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.dog {
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+
+.desenvolvido {
+    color: red;
+    padding: 1rem 0;
+    text-align: center;
+}
+.desenvolvido span {
+    color: #ecf605;
+}
+.foto {
+    width: 3%;
+    align-items: center;
+}
+.bandeiras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.segurança {
+    width: 250px;
+    height: 40%;
+}
+.redes {
+    color: #f9f9f9;
+    text-align: center;
+}
+.logos-redes {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.logos-redes div {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.logos-redes div a {
+    display: inline-block;
+    height: 100%;
+}
+.foto {
+    height: 100%;
+    width: 100%;
+}
+
+.foto-encrypt {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .dog {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        padding-top: 8px;
+    }
+
+    .logos-redes div {
+        width: 20%;
+    }
+
+    .desenvolvido {
+        font-size: 0.8rem;
+    }
+
+    .segurança {
+        max-width: 150px;
+    }
+}
+/* Estilos para dispositivos móveis (tamanhos de tela menores que 768px) */
+@media screen and (max-width: 768px) {
+    .foto {
+        margin: 0 auto; /* Centralize a imagem horizontalmente */
+        display: block; /* Certifique-se de que a imagem seja exibida como um bloco */
+    }
+}

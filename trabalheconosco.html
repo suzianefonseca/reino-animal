@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhe Conosco</title>
     <link rel="stylesheet" href="trabalheconosco.css">
+    <link rel="shortcut icon" href="pets/logo1.png">
+    <link rel="stylesheet" href="cabecalho.css">
+    <link rel="stylesheet" href="rodape.css">
+    <title>Trabalhe Conosco</title>
 </head>
 <body>
   <header class="header">
@@ -89,7 +92,7 @@
         <input type="text" id="redes-sociais" name="redes-sociais">
         <label for="redes-sociais">GitHub:</label>
         <input type="text" id="redes-sociais" name="redes-sociais">
-    </fieldset>
+      </fieldset>
         
         <fieldset>
             <legend>Sobre você</legend>
@@ -97,7 +100,7 @@
             <textarea name="caixa" cols="25" rows="5" id="caixa" required> </textarea>
            
               
-      </fieldset>
+        </fieldset>
       
       <h4>Envie seu currículo</h4>
       <input type="file"/>
@@ -141,18 +144,8 @@
     </div>        
     <h2 class="desenvolvido">&copy Copyrigth - Desenvolvido por <span>Suziane Valentim Fonseca </span></h2> 
     </footer>
-    <script>
-      // botão de hambúrguer e o menu
-      const menuToggle = document.querySelector(".menu-toggle");
-      const menu = document.querySelector(".menu");
-      
-      //  evento de clique ao botão de hambúrguer
-      menuToggle.addEventListener("click", function () {
-          // Toggle (alternar) a classe "active" no menu
-          menu.classList.toggle("active");
-      });
-  </script>
     
+    <script src="menu.js"></script> 
 </body>
 
 </html>
