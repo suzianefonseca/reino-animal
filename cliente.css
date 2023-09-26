@@ -1,232 +1,80 @@
 body {
-  font-family:'Poppins, sans-serif' ; 
-  background-image: radial-gradient(circle, #de250a, #e35900, #e57e00, #e49f00, #e0be15, #e1bf15, #e1bf15, #e2c015, #e8a200, #eb8200, #ec5d00, #e92b0f);
-  }
-  
-  h1 {
-    color:#080708;
-   
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-  }
-  
-  h2 {
-    color:#050606;
-    font-size:x-large ;
-    font-size:15px;
-    font-style: normal;
-  }
-  
-  
-  form {
+  font-family: "Poppins, sans-serif";
+  background-image: radial-gradient(
+    circle,
+    #de250a,
+    #e35900,
+    #e57e00,
+    #e49f00,
+    #e0be15,
+    #e1bf15,
+    #e1bf15,
+    #e2c015,
+    #e8a200,
+    #eb8200,
+    #ec5d00,
+    #e92b0f
+  );
+}
+
+h1 {
+  color: #080708;
+
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+h2 {
+  color: #050606;
+  font-size: x-large;
+  font-size: 15px;
+  font-style: normal;
+}
+
+form {
   display: flex;
-    
-  }
-  fieldset{
-    border: none;
-  }
-  .input-hover:hover {
-    border-color: #f7d8d8;
-    background:#111111;
-    display: inline-flex;
-    color:#f7d8d8;;
-    padding: 5px 15px;
-    text-align: center; 
-  }
-  
-  .input-hover {
-  border-color: #777474;
-  background:#5c5a5a;
+}
+fieldset {
+  border: none;
+}
+.input-hover:hover {
+  border-color: #f7d8d8;
+  background: #111111;
   display: inline-flex;
-  color:#fff;
+  color: #f7d8d8;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.input-hover {
+  border-color: #777474;
+  background: #5c5a5a;
+  display: inline-flex;
+  color: #fff;
   padding: 5px 10px;
   margin: 10px;
   text-align: center;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  }
+}
 
-  /* Estilos gerais do footer */
-  
-  footer{
-    background-color: #080808;
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-   margin-top:5rem; /* ele baixa o footer*/
-  
-  }
-  .dog{
-    width:150px;
-    height: 150px;
-    display: flex;
-  margin-left: 40rem;
-  padding-top: 10px;
-  }
-    
-  .desenvolvido{
-    color: red;
-    padding:1rem 0 ;
-    text-align: center;
+.voltar {
+  text-align: center;
 }
-  .desenvolvido span{
-    color:#ecf605
-  }   
-.foto  {
-    width: 3%; 
-    margin-right: 10px;
-    align-items: center;
-    margin: 0 auto;
-    margin-left: 40rem;
-   
-  
-}
- .bandeiras{
-    align-items: center;
-    display: flex;
-    margin: 0 auto;
-   display: inline-block;
-  
- }
- .segurança{
-    width: 250px;
-   height: 40%;
- }
- .redes {
-    color: #f9f9f9;
-    text-align: center;
- }
-  
-  .voltar{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-  }
-  
-  /*  footer responsivo */
-  @media (max-width: 768px) {
-    .dog {
-      width: 100px;
-      height: 100px;
-      display: flex;
-      margin-left: 41rem;
-      padding-top: 40px;
-    }
-  
-    .desenvolvido {
-      font-size: 0.8rem;
-    }
-  
-    .segurança {
-      max-width: 150px;
-    }
-  }
-  /* Estilos para dispositivos móveis (tamanhos de tela menores que 768px) */
+
+/* Responsivo */
+
 @media screen and (max-width: 768px) {
-  .foto {
-    width: 10%; 
-    max-width: 10%; 
-    margin: 0 auto; /* Centralize a imagem horizontalmente */
-    display: block; /* Certifique-se de que a imagem seja exibida como um bloco */
-  }
-}
-/* Estilos para dispositivos maiores que 768px */
-@media screen and (min-width: 769px) {
-  .foto {
-    width: 5%; /* Largura da imagem para telas maiores */
-    margin-right: 10px; /* Espaçamento à direita */
-    margin-left: 41rem; /* Espaçamento à esquerda (se necessário) */
-  }
-}
-  /* Estilos para o ícone de hambúrguer */
-
-.menu-toggle {
-  display: none;
-  cursor: pointer;
-  padding: 10px;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  margin: 3px 0;
-}
-
-/* Estilos para o menu */
-.menu {
-  display: block;
-  
-}
-
-.menu ul {
-  list-style: none;
-  padding: 0;
-}
-
-.menu li {
-  margin: 10px;
-}
-
-.header{
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-}
-/* Estilos para o menu responsivo */
-@media screen and (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .menu {
-      display: none;
-      background-color: #333;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      text-align: center;
-  }
-
-  .menu.active {
-      display: block;
-  }
-
-  .menu ul {
-      padding: 0;
-  }
-
-  .menu li {
-      margin: 10px;
-  }
-
-  .menu a {
-      color: #fff;
-      text-decoration: none;
-  }
-}
-
-
-
-  /* Responsivo */
-  
-  @media screen and (max-width: 768px) {
-    
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="number"],
-    input[type="login"],
-    input[type="passconfirm"],
-    input[type="Limpar"],
-    textarea {
-        
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="login"],
+  input[type="passconfirm"],
+  input[type="Limpar"],
+  textarea {
     width: 100%;
-    }
-
   }
-  
+}

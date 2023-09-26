@@ -13,7 +13,13 @@ form {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #080808c0;
-   
+}
+
+.map-responsive {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /*CAIXA DE TEXTO*/
