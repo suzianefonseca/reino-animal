@@ -152,24 +152,24 @@ grid-area: prod20;
 }
 
 .produto-1 .card-imagem {
-  background-image: url(pets/suprimento\ de\ cama.jpg);
+  background-image: url(pets/novoninho1.jpeg);
 }
 .produto-1 .card-imagem:hover {
   background-image: url(pets/cama\ \ suprimento\ fexada.jpg);
 }
 
 .produto-2 .card-imagem {
-  background-image: url(pets/limpa-pata.1.jpg);
+  background-image: url(pets/novolimpapata1.jpeg);
 }
 .produto-2 .card-imagem:hover {
-  background-image: url(pets/limpa\ patas2.jpg);
+  background-image: url(pets/limpapatasnovo2.jpeg);
 }
 
 .produto-3 .card-imagem {
-  background-image: url(pets/pasta-dente.jpg);
+  background-image: url(pets/novocremedent1.jpeg);
 }
 .produto-3 .card-imagem:hover {
-  background-image: url(pets/pasta-dente2.jpg);
+  background-image: url(pets/novocremedent2.jpeg);
 }
 
 .produto-4 .card-imagem {
@@ -179,46 +179,46 @@ grid-area: prod20;
   background-image: url(pets/cadeira-carro2.jpg);
 }
 .produto-5 .card-imagem {
-  background-image: url(pets/camajambo.jpg);
+  background-image: url(pets/cama2.jpeg);
 }
 .produto-5 .card-imagem:hover {
-  background-image: url(pets/camajambo2.jpg);
+  background-image: url(pets/novacama1.jpeg);
 }
 .produto-6 .card-imagem {
-  background-image: url(pets/biscoito-pet1.jpg);
+  background-image: url(pets/novopetiscodog1.jpeg);
 }
 .produto-6 .card-imagem:hover {
-  background-image: url(pets/biscoito-pet2.jpg);
+  background-image: url(pets/petiscogog2.jpeg);
 }
 
 .produto-7 .card-imagem {
-  background-image: url(pets/bola.jpg);
+  background-image: url(pets/novobolapetisco1.jpeg);
 }
 .produto-7 .card-imagem:hover {
-  background-image: url(pets/bola2.jpg);
+  background-image: url(pets/bolapetisco1.jpeg);
 }
 
 .produto-8 .card-imagem {
-  background-image: url(pets/petiscocat.jpg);
+  background-image: url(pets/novoantbola1.jpeg);
 }
 .produto-8 .card-imagem:hover {
-  background-image: url(pets/petiscocat2.jpg);
+  background-image: url(pets/novoantebola2.jpeg);
 }
 .produto-9 .card-imagem {
-  background-image: url(pets/comedouro.jpg);
+  background-image: url(pets/novoalimentador.jpeg);
 }
 .produto-9 .card-imagem:hover {
-  background-image: url(pets/comedouro2.jpg);
+  background-image: url(pets/novoalimentador1.jpeg);
 }
 
 .produto-10 .card-imagem {
-  background-image: url(pets/kitbanhox.jpg);
+  background-image: url(pets/banho2.jpeg);
 }
 .produto-10 .card-imagem:hover {
-  background-image: url(pets/kitbanoy.jpg);
+  background-image: url(pets/novobanho1.jpeg);
 }
 .produto-11 .card-imagem {
-  background-image: url(pets/tapete\ xixi.jpg);
+  background-image: url(pets/novotapetedog1.jpeg);
 }
 
 .produto-11 .card-imagem:hover {
@@ -226,28 +226,28 @@ grid-area: prod20;
 }
 
 .produto-12 .card-imagem {
-  background-image: url(pets/areiacat.jpg);
+  background-image: url(pets/areia1.jpeg);
 }
 .produto-12 .card-imagem:hover {
-  background-image: url(pets/areiacat2.jpg);
+  background-image: url(pets/areia2.jpeg);
 }
 
 .produto-13 .card-imagem {
-  background-image: url(pets/suport\ p\ petisco.jpg);
+  background-image: url(pets/lagartixa1.jpeg);
 }
 .produto-13 .card-imagem:hover {
-  background-image: url(pets/suportpetisco\ gato.jpg);
+  background-image: url(pets/novolagartixa1.jpeg);
 }
 
 .produto-14 .card-imagem {
-  background-image: url(pets/gatifilhote.jpg);
+  background-image: url(pets/novaracaocatp1.jpeg);
 }
 .produto-14 .card-imagem:hover {
-  background-image: url(pets/gatopequeno2.jpg);
+  background-image: url(pets/novaracaocat2.jpeg);
 }
 
 .produto-15 .card-imagem {
-  background-image: url(pets/racaogatos.jpg);
+  background-image: url(pets/novaracaogato1.jpeg);
 }
 
 .produto-15 .card-imagem:hover {
@@ -255,14 +255,14 @@ grid-area: prod20;
 }
 
 .produto-16 .card-imagem {
-  background-image: url(pets/racaogrande.jpg);
+  background-image: url(pets/novaracaodogg1.jpeg);
 }
 .produto-16 .card-imagem:hover {
   background-image: url(pets/racaogrande2.jpg);
 }
 
 .produto-17 .card-imagem {
-  background-image: url(pets/racaopetpqn.jpg);
+  background-image: url(pets/novaracaodogp1.jpeg);
 }
 
 .produto-17 .card-imagem:hover {
@@ -270,11 +270,11 @@ grid-area: prod20;
 }
 
 .produto-18 .card-imagem {
-  background-image: url(pets/mochilapet.jpg);
+  background-image: url(pets/novo\ carro1.jpeg);
 }
 
 .produto-18 .card-imagem:hover {
-  background-image: url(pets/mochilapet2.jpg);
+  background-image: url(pets/novocarro2.jpeg);
 }
 
 .produto-19 .card-imagem {
@@ -290,7 +290,7 @@ grid-area: prod20;
 }
 
 .produto-20 .card-imagem:hover {
-  background-image: url(pets/brinquedocachorro2.jpg);
+  background-image: url(pets/novobrinquedodog2.jpeg);
 }
 
 .botao__comprar:hover {
