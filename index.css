@@ -24,7 +24,7 @@ body {
 .main {
   display: flex;
   width: 100%;
-  height: 130vh;
+  height:auto;
 }
 .imagem {
   background: url(pets/Firefly\ gato\ e\ cachorro\ juntos\ 10.png) no-repeat;
@@ -169,6 +169,8 @@ footer {
   .main {
     flex-direction: column;
     align-items: center;
+    height: 225vh;
+
   }
   .imagem {
     background-image: url(pets/Firefly\ gato\ e\ cachorro\ juntos\ 10.png);
