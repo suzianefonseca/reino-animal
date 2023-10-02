@@ -126,7 +126,7 @@ grid-area: prod20;
   background-color: rgb(241, 106, 21);
 }
 .card:hover {
-  padding: 20px;
+  padding:10px;
 }
 
 .botao__comprar {
@@ -444,7 +444,7 @@ grid-area: prod20;
 
 @media screen and (max-width: 480px) {
   .icone-carrinho {
-    width: 10%;
+    width: 20%;
   }
 }
 
