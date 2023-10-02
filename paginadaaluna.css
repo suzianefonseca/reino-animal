@@ -23,7 +23,7 @@ body{
         font-weight:bold;
         font-size:18px;
         margin:50px;
-        padding: 2rem 1.8rem;
+       
    }
 
     h1 {
@@ -32,7 +32,7 @@ body{
       font-size: 30px;
       font-style: italic;
       font-family:fredericka the great,fantasy;
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
     }
 
     .voltar {
@@ -43,11 +43,11 @@ body{
     }
 
     @media (max-width: 768px) {
-      
+
         .main {
           flex-direction: column;
           align-items: center;
-          height: 290vh;
+          height: 326vh;
     }
         .imagem {
           background-image: url(pets/foto\ perfil.png);
