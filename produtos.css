@@ -1,13 +1,13 @@
 .div-carrinho {
   width: 100%;
-  height:6rem;
+  height:5rem;
   display: flex;
   justify-content: flex-end;
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 
 .icone-carrinho {
-  width: 6%;
+  width: 5%;
   height: 100%;
 }
 
@@ -314,7 +314,7 @@ grid-area: prod20;
 
 
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
   .container {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(20, 1fr);
