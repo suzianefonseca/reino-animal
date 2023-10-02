@@ -16,8 +16,17 @@ form {
     color: #080808c0;
     padding-top: 50px;
    
+   
+}
+fieldset{
+    border: none;
 }
 
+h2{
+    margin-left: 1rem;
+    padding-top: 10px;
+    font-style: italic;
+}
 .map-responsive {
     display: flex;
     justify-content: center;

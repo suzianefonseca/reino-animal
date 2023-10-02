@@ -1,20 +1,21 @@
 body{
-    background-image: radial-gradient(circle, #de250a, #e35900, #e57e00, #e49f00, #e0be15, #e1bf15, #e1bf15, #e2c015, #e8a200, #eb8200, #ec5d00, #e92b0f);
-    }
+  background-image: radial-gradient(circle, #de250a, #e35900, #e57e00, #e49f00, #e0be15, #e1bf15, #e1bf15, #e2c015, #e8a200, #eb8200, #ec5d00, #e92b0f);
+}
     .main{
-      display: flex;
-      width: 100%;
-      height: auto;
+    display: flex;
+    width: 100%;
+    height: auto;
       
     }
-    .imagem{
+  .imagem{
     background: url(pets/foto\ perfil.png)no-repeat;
     background-size:300px;
     background-position:center;
     width: 50%;
     height:80vh;
     
-    }
+  }
+
     .depoimento{
         width: 100%;
         height: 150vh;
@@ -23,9 +24,7 @@ body{
         font-size:18px;
         margin:50px;
         padding: 2rem 1.8rem;
-      
-    
-    }
+   }
 
     h1 {
       font-size: x-large;
@@ -35,6 +34,7 @@ body{
       font-family:fredericka the great,fantasy;
       margin-bottom: 3rem;
     }
+
     .voltar {
         align-items: center;
         display: flex;
@@ -43,11 +43,12 @@ body{
     }
 
     @media (max-width: 768px) {
+      
         .main {
           flex-direction: column;
           align-items: center;
-          height: 225vh;
-        }
+          height: 290vh;
+    }
         .imagem {
           background-image: url(pets/foto\ perfil.png);
           background-repeat: no-repeat;
@@ -56,7 +57,7 @@ body{
           width: 80%;
           height: 90vh;
       
-          max-width: 500px;
+          max-width:500px;
         }
         .depoimento {
             width: 90%;

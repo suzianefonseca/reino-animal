@@ -47,6 +47,7 @@ p {
   height: 150px;
 }
 
+/*cabeçalho*/
 
 .menu li {
   position: relative;
@@ -169,7 +170,7 @@ footer {
   .main {
     flex-direction: column;
     align-items: center;
-    height: 225vh;
+    height: 235vh;
 
   }
   .imagem {
@@ -212,8 +213,8 @@ footer {
 /* Estilos para dispositivos móveis (tamanhos de tela menores que 768px) */
 @media screen and (max-width: 768px) {
   .foto {
-    margin: 0 auto; /* Centralize a imagem horizontalmente */
-    display: block; /* Certifique-se de que a imagem seja exibida como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    display: block; /* Certifica de que a imagem seja exibida como um bloco */
   }
 }
 
